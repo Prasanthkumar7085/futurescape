@@ -1,0 +1,17 @@
+@import 'support/colors';
+@import 'support/headings';
+@import 'support/mixins';
+@import 'support//responsive';
+@import 'support/buttons';
+@import "../scss/header";
+@import "../scss/footer";
+
+// Home
+@import '../scss/home/world';
+@import "../scss/home/predicting";
+@import "../scss/home/discover-more";
+@import "../scss/home/lets-travel";
+
+// Journey
+@import '../scss/journey/establishing';
+@import '../scss/journey/initial-domain';

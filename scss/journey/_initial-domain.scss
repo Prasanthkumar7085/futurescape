@@ -1,0 +1,44 @@
+#initial-domain {
+    position: relative;
+    .each-block {
+        position: relative;
+        border: 0.4px solid #0000001A;
+        .img {
+            position: relative;
+            .txt {
+                h4 {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 10px;
+                    z-index: 1;
+                    color: #fff;
+                    font-size: clamp(2em, 4vw, 9em);
+                }
+            }
+        }
+        .each-content {
+            padding: 1em;
+            background-color: #FBFBFB ;
+            h4 {
+                margin-bottom: 10px;
+                font-weight: 500;
+            }
+            ol {
+                li {
+                    font-size: clamp(0.775em, 0.7vw, 1.15em);
+                }
+            }
+            p {
+                font-weight: 500;
+            }
+        }
+    }
+    .slick-slider {
+        margin:0 -15px;
+    }
+    .slick-slide {
+        margin-right:15px;
+        margin-left:15px;
+    }
+    
+}

@@ -1,0 +1,9 @@
+#lets-travel {
+    position: relative;
+    .btn-primary {
+        background-color: #3B46DE;
+        &:hover {
+            background-color: #0a18e1;
+        }
+    }
+}
