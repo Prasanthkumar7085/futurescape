@@ -21,37 +21,7 @@
     }
   }
 }
-.btn-2 {
-  width: max-content;
-  border-color: #FE9C06;
-  background-color: #FE9C06;
-  transition: 0.4s all ease-in-out;
-  @include primary-button;
-  border-radius: 25px;
-  color: #000;
-  font-weight: 400;
-  font-size: clamp(1em, 1vw, 2em);
-  &:hover {
-    background-color: #e38b06;
-  }
-}
-.btn-3 {
-  width: max-content;
-  border-color: $color-third;
-  background-color: $color-third;
-  transition: 0.4s all ease-in-out;
-  @include primary-button;
-  border-radius: 8px;
-  color: #fff;
-  &:hover {
-    background-color: $color-third;
-    a {
-      color: #fff;
-      svg {
-        path {
-          fill: #fff;
-        }
-      }
-    }
-  }
+.btn-primary {
+  background-color: #3B46DE;
+  border-color: #3B46DE;
 }

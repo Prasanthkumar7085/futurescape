@@ -1,5 +1,6 @@
 #initial-domain {
     position: relative;
+    overflow: hidden;
     .each-block {
         position: relative;
         border: 0.4px solid #0000001A;
@@ -17,11 +18,15 @@
             }
         }
         .each-content {
-            padding: 1em;
+            padding: 10px ;
+            min-height: 230px;
             background-color: #FBFBFB ;
+            box-shadow: 0px 4px 4px 0px #0000000D;
+
             h4 {
                 margin-bottom: 10px;
-                font-weight: 500;
+                font-weight: 600;
+                font-size: 1em;
             }
             ol {
                 li {
@@ -30,15 +35,36 @@
             }
             p {
                 font-weight: 500;
+                font-size: 0.8em;
             }
         }
     }
+    .slick-list {
+        overflow: visible;
+    }
+    .slick-list{
+        overflow: visible;
+        padding:0 0 0 0;
+        position: relative;
+        z-index: -1;
+      }
+      
+      .slick-list::after {
+        content: ' ';
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        width: 4000px;
+        right: 100%;
+        background-color: white;
+      }
+      
     .slick-slider {
-        margin:0 -15px;
+        margin:0 -10px;
     }
     .slick-slide {
-        margin-right:15px;
-        margin-left:15px;
+        margin-right:10px;
+        margin-left:10px;
     }
     
 }
