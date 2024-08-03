@@ -2,7 +2,13 @@ html,
 body {
   height: initial !important; min-height: 100% !important;
 }
-
+.offcanvas-header {
+  padding-right: 3em;
+}
+.btn-close {
+  background: none;
+  width: inherit;
+}
 #hero-navbar {
     // position: fixed;
     // top: 0;
@@ -168,4 +174,40 @@ body {
         z-index: 999;
         width: 100%;
       }
+}
+.main-txt {
+  font-size: clamp(2em, 2.08vw, 4em) !important;
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 700 !important;
+}
+.dropdown-toggle::after {
+  content: none;
+}
+.dropdown {
+  margin-bottom: 3em;
+}
+.dropdown-sub {
+  margin-bottom: 3em;
+  .dropdown-item {
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    position: relative;
+    width: max-content;
+    float: right;
+    &:hover {
+      text-decoration: underline;
+      &::before {
+        content: "";
+        position: absolute;
+        left: -20px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 1;
+        background-image: url(/img/arrow-sub.svg);
+        width: 13px;
+        height: 15px;
+      }
+    }
+  }
 }

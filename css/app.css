@@ -87,6 +87,15 @@ body {
   min-height: 100% !important;
 }
 
+.offcanvas-header {
+  padding-right: 3em;
+}
+
+.btn-close {
+  background: none;
+  width: inherit;
+}
+
 #hero-navbar {
   position: relative;
   z-index: 999;
@@ -251,6 +260,51 @@ body {
   background-color: #000;
   z-index: 999;
   width: 100%;
+}
+
+.main-txt {
+  font-size: clamp(2em, 2.08vw, 4em) !important;
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 700 !important;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown {
+  margin-bottom: 3em;
+}
+
+.dropdown-sub {
+  margin-bottom: 3em;
+}
+
+.dropdown-sub .dropdown-item {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  float: right;
+}
+
+.dropdown-sub .dropdown-item:hover {
+  text-decoration: underline;
+}
+
+.dropdown-sub .dropdown-item:hover::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  background-image: url(/img/arrow-sub.svg);
+  width: 13px;
+  height: 15px;
 }
 
 #footer {
@@ -1190,6 +1244,15 @@ body {
   min-height: 100% !important;
 }
 
+.offcanvas-header {
+  padding-right: 3em;
+}
+
+.btn-close {
+  background: none;
+  width: inherit;
+}
+
 #hero-navbar {
   position: relative;
   z-index: 999;
@@ -1354,6 +1417,51 @@ body {
   background-color: #000;
   z-index: 999;
   width: 100%;
+}
+
+.main-txt {
+  font-size: clamp(2em, 2.08vw, 4em) !important;
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 700 !important;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown {
+  margin-bottom: 3em;
+}
+
+.dropdown-sub {
+  margin-bottom: 3em;
+}
+
+.dropdown-sub .dropdown-item {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  float: right;
+}
+
+.dropdown-sub .dropdown-item:hover {
+  text-decoration: underline;
+}
+
+.dropdown-sub .dropdown-item:hover::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  background-image: url(/img/arrow-sub.svg);
+  width: 13px;
+  height: 15px;
 }
 
 #footer {
