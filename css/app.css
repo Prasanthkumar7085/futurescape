@@ -590,6 +590,10 @@ body {
   border-bottom: 1px solid #cecbcb;
 }
 
+#indicator-selection.inner-faqs .accordion-item:last-child {
+  border-bottom: 0;
+}
+
 @media (min-width: 991.98px) {
   #indicator-selection.inner-faqs .accordion-item p {
     width: 80%;
@@ -1687,6 +1691,10 @@ body {
 
 #indicator-selection.inner-faqs .accordion-item {
   border-bottom: 1px solid #cecbcb;
+}
+
+#indicator-selection.inner-faqs .accordion-item:last-child {
+  border-bottom: 0;
 }
 
 @media (min-width: 991.98px) {

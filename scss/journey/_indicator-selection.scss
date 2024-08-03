@@ -39,6 +39,9 @@
       &.inner-faqs {
         .accordion-item {
           border-bottom: 1px solid #cecbcb;
+          &:last-child {
+            border-bottom: 0;
+          }
           p {
             @include media-breakpoint-up(lg){
               width: 80%;
