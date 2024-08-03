@@ -628,7 +628,7 @@ body {
 }
 
 @media (min-width: 991.98px) {
-  #inner-banner.tournament-banner {
+  #inner-banner.second-banner {
     height: calc(100vh - 60px);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1705,7 +1705,7 @@ body {
 }
 
 @media (min-width: 991.98px) {
-  #inner-banner.tournament-banner {
+  #inner-banner.second-banner {
     height: calc(100vh - 60px);
     display: -webkit-box;
     display: -ms-flexbox;

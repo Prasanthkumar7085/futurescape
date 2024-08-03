@@ -7,7 +7,7 @@
         align-items: center;
     
     }
-    &.tournament-banner {
+    &.second-banner {
         @include media-breakpoint-up(lg){
             height: calc(100vh - 60px);
             display: flex;
