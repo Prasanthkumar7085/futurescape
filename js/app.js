@@ -12,7 +12,7 @@ window.addEventListener("scroll", function (e) {
   if (window.scrollY >= storData) {
     header.classList.add("fixed");
   } else {
-    header.classList.remove("");
+    header.classList.remove("fixed");
   }
 });
   $(".c-year").text(new Date().getFullYear());

@@ -97,7 +97,6 @@ body {
 }
 
 #hero-navbar {
-  position: relative;
   z-index: 999;
 }
 
@@ -1254,7 +1253,6 @@ body {
 }
 
 #hero-navbar {
-  position: relative;
   z-index: 999;
 }
 
