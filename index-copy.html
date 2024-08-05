@@ -15,11 +15,16 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="css/slick-theme.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.css">
   <link rel="stylesheet" href="css/app.css" />
+  <style>
+    .scroll-container {
+      overflow: hidden;
+    }
+  </style>
 </head>
 
-<body>
+<body data-scroll-container id="parentContainer">
   <!-- section one world -->
   <section id="world" class="section-gap bg-black">
     <div class="container">
@@ -355,6 +360,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
   integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"
+    integrity="sha256-BnGmL6SMMBDHkgAWIUohV386CFjNtVgdGCqS3eDGr6c=" crossorigin="anonymous"></script>
+  <!-- <script src="https://unpkg.com/scrollreveal@4"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
+  <script src="js/scroll-animation.js"></script>
   <script src="/js/axios.min.js"></script>
   <script src="/js/vee-validate.js"></script>
   <script src="/js/vue.js"></script>

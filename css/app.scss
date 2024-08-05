@@ -39,8 +39,9 @@ a {
   font-family: "Inter", sans-serif;
 }
 h1 {
-  font-size: clamp(2.5em, 3.0vw, 7em);
-  font-weight: 700;
+  // font-size: clamp(2.5em, 3.0vw, 7em);
+  font-size: clamp(3em, 3.703vw, 8em);
+  font-weight: 600;
 }
 p {
   font-weight: 400;

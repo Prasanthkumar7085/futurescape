@@ -790,8 +790,8 @@ a {
 }
 
 h1 {
-  font-size: clamp(2.5em, 3vw, 7em);
-  font-weight: 700;
+  font-size: clamp(3em, 3.703vw, 8em);
+  font-weight: 600;
 }
 
 p {
