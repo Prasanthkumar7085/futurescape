@@ -88,27 +88,27 @@ document.addEventListener('DOMContentLoaded', function () {
     disableScroll();
 
     // Set the interval
-    intervalId = setInterval(myFunction, 5000); // 1000 milliseconds = 1 second
+    // intervalId = setInterval(myFunction, 5000); // 1000 milliseconds = 1 second
 });
 
 
 
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize Letterize.js for each title
-    document.querySelectorAll('.letterize').forEach(title => {
-        const letterize = new Letterize({
-            targets: title
-        });
-        letterize.listAll.forEach((element, index) => {
-            element.classList.add('animate');
-        });
-    });
-    ScrollReveal().reveal('.letterize span', {
-        interval: 40,
-        duration: 1000,
-        origin: 'bottom',
-        distance: '50px'
-    });
+    // document.querySelectorAll('.letterize').forEach(title => {
+    //     const letterize = new Letterize({
+    //         targets: title
+    //     });
+    //     letterize.listAll.forEach((element, index) => {
+    //         element.classList.add('animate');
+    //     });
+    // });
+    // ScrollReveal().reveal('.letterize span', {
+    //     interval: 40,
+    //     duration: 1000,
+    //     origin: 'bottom',
+    //     distance: '50px'
+    // });
 });
 
 // const test = new Letterize({
