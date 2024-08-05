@@ -45,11 +45,11 @@ window.addEventListener("scroll", function (e) {
     );
   });
 
-  AOS.init({
-    duration: 2000,
-    easing: "ease-in-out",
-    once: true,
-  });
-  $(window).on("load", function () {
-    AOS.refresh();
-  });
+  // AOS.init({
+  //   duration: 2000,
+  //   easing: "ease-in-out",
+  //   once: true,
+  // });
+  // $(window).on("load", function () {
+  //   AOS.refresh();
+  // });

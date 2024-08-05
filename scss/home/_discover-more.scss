@@ -3,6 +3,10 @@
     h1 {
         margin-bottom: 15px;
     }
+    .des {
+        font-size: clamp(1.25em, 1.25vw, 4em);
+        margin-bottom: 2em;
+    }
     .each-block {
         margin-bottom: 1.25em;
         .img {

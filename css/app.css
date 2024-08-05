@@ -441,13 +441,14 @@ body {
   margin-bottom: 15px;
 }
 
-#predicting p {
-  font-size: clamp(1em, 1.25vw, 2.5em);
+#predicting .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
 }
 
 #predicting a {
   font-weight: 500;
-  margin-bottom: 1em;
+  margin: 2em 0 4em;
 }
 
 #predicting .each-block {
@@ -463,6 +464,7 @@ body {
 }
 
 #predicting .each-block .txt h2 {
+  text-align: center;
   font-size: clamp(2em, 2.7vw, 5em);
 }
 
@@ -472,6 +474,11 @@ body {
 
 #discover-more h1 {
   margin-bottom: 15px;
+}
+
+#discover-more .des {
+  font-size: clamp(1.25em, 1.25vw, 4em);
+  margin-bottom: 2em;
 }
 
 #discover-more .each-block {
@@ -513,6 +520,34 @@ body {
 
 #lets-travel .btn-primary:hover {
   background-color: #0a18e1;
+}
+
+#join-our-community {
+  position: relative;
+}
+
+#join-our-community .form-control {
+  background-color: #f8f8f8;
+}
+
+#join-our-community .form-row {
+  --bs-gutter-x: 0.5rem;
+}
+
+#join-our-community ::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+#join-our-community :-ms-input-placeholder {
+  color: #ccc;
+}
+
+#join-our-community ::-ms-input-placeholder {
+  color: #ccc;
+}
+
+#join-our-community ::placeholder {
+  color: #ccc;
 }
 
 #establishing {
@@ -755,7 +790,8 @@ a {
 }
 
 h1 {
-  font-size: clamp(3em, 3.7vw, 8em);
+  font-size: clamp(2.5em, 3vw, 7em);
+  font-weight: 700;
 }
 
 p {
@@ -1597,13 +1633,14 @@ body {
   margin-bottom: 15px;
 }
 
-#predicting p {
-  font-size: clamp(1em, 1.25vw, 2.5em);
+#predicting .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
 }
 
 #predicting a {
   font-weight: 500;
-  margin-bottom: 1em;
+  margin: 2em 0 4em;
 }
 
 #predicting .each-block {
@@ -1619,6 +1656,7 @@ body {
 }
 
 #predicting .each-block .txt h2 {
+  text-align: center;
   font-size: clamp(2em, 2.7vw, 5em);
 }
 
@@ -1628,6 +1666,11 @@ body {
 
 #discover-more h1 {
   margin-bottom: 15px;
+}
+
+#discover-more .des {
+  font-size: clamp(1.25em, 1.25vw, 4em);
+  margin-bottom: 2em;
 }
 
 #discover-more .each-block {
@@ -1669,6 +1712,34 @@ body {
 
 #lets-travel .btn-primary:hover {
   background-color: #0a18e1;
+}
+
+#join-our-community {
+  position: relative;
+}
+
+#join-our-community .form-control {
+  background-color: #f8f8f8;
+}
+
+#join-our-community .form-row {
+  --bs-gutter-x: 0.5rem;
+}
+
+#join-our-community ::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+#join-our-community :-ms-input-placeholder {
+  color: #ccc;
+}
+
+#join-our-community ::-ms-input-placeholder {
+  color: #ccc;
+}
+
+#join-our-community ::placeholder {
+  color: #ccc;
 }
 
 #establishing {
