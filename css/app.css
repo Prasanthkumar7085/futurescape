@@ -567,8 +567,23 @@ body {
   font-weight: 400;
 }
 
+#inner-banner-intro {
+  position: relative;
+  padding-top: 8em;
+}
+
+#inner-banner-intro .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
+}
+
 #establishing {
   position: relative;
+}
+
+#establishing .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
 }
 
 #initial-domain {
@@ -605,7 +620,7 @@ body {
 #initial-domain .each-block .each-content h4 {
   margin-bottom: 10px;
   font-weight: 600;
-  font-size: 1em;
+  font-size: clamp(1em, 1.157vw, 2.5em);
 }
 
 #initial-domain .each-block .each-content ol li {
@@ -613,8 +628,8 @@ body {
 }
 
 #initial-domain .each-block .each-content p {
-  font-weight: 500;
-  font-size: 0.8em;
+  font-weight: 700;
+  font-size: clamp(0.775em, 0.7vw, 1.15em);
 }
 
 #initial-domain .slick-list {
@@ -818,6 +833,11 @@ html {
 * {
   padding: 0;
   margin: 0;
+}
+
+.des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
 }
 
 body {
@@ -1808,8 +1828,23 @@ body {
   font-weight: 400;
 }
 
+#inner-banner-intro {
+  position: relative;
+  padding-top: 8em;
+}
+
+#inner-banner-intro .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
+}
+
 #establishing {
   position: relative;
+}
+
+#establishing .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
 }
 
 #initial-domain {
@@ -1846,7 +1881,7 @@ body {
 #initial-domain .each-block .each-content h4 {
   margin-bottom: 10px;
   font-weight: 600;
-  font-size: 1em;
+  font-size: clamp(1em, 1.157vw, 2.5em);
 }
 
 #initial-domain .each-block .each-content ol li {
@@ -1854,8 +1889,8 @@ body {
 }
 
 #initial-domain .each-block .each-content p {
-  font-weight: 500;
-  font-size: 0.8em;
+  font-weight: 700;
+  font-size: clamp(0.775em, 0.7vw, 1.15em);
 }
 
 #initial-domain .slick-list {

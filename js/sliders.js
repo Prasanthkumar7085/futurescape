@@ -2,6 +2,7 @@ $(".blocks-slider").slick({
     dots: false,
     arrows: true,
     autoplay: true,
+    draggable: true,
     autoplaySpeed: 3000,
     infinite: true,
     slidesToShow: 5,
