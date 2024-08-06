@@ -71,6 +71,9 @@ body {
         }
       }
     .navbar-brand {
+      font-size: clamp(1.15em, 1.15vw, 2.5em);
+      font-weight: 700;
+      font-family: "Inter", sans-serif;
       img {
        width: 150px;
       }

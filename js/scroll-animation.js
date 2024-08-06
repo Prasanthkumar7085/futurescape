@@ -44,35 +44,35 @@ document.addEventListener('DOMContentLoaded', function () {
         smooth: true
     });
 
-    // let sections = document.querySelectorAll('.section-auto-scroll');
-    // let currentIndex = 0;
+    let sections = document.querySelectorAll('.section-auto-scroll');
+    let currentIndex = 0;
 
-    // function autoScroll() {
-    //     if (currentIndex < sections.length - 1) {
-    //         currentIndex++;
-    //     }
-    //     else {
-    //     }
-    //     scroll.scrollTo(sections[currentIndex], {
-    //         offset: 0,
-    //         duration: 1000,
-    //         easing: [0.25, 0.00, 0.35, 1.00]
-    //     });
-    // }
-    // let count = 0;
-    // let intervalId;
+    function autoScroll() {
+        if (currentIndex < sections.length - 1) {
+            currentIndex++;
+        }
+        else {
+        }
+        scroll.scrollTo(sections[currentIndex], {
+            offset: 0,
+            duration: 1000,
+            easing: [0.25, 0.00, 0.35, 1.00]
+        });
+    }
+    let count = 0;
+    let intervalId;
 
-    // // Function to be executed
-    // function myFunction() {
-    //     count++;
-    //     console.log(`This is execution number ${count}`);
-    //     autoScroll();
+    // Function to be executed
+    function myFunction() {
+        count++;
+        console.log(`This is execution number ${count}`);
+        autoScroll();
 
-    //     if (count >= 3) {
-    //         clearInterval(intervalId); // Stop the interval after 3 executions
-    //         enableScroll(); // Re-enable scrolling
-    //     }
-    // }
+        if (count >= 3) {
+            clearInterval(intervalId); // Stop the interval after 3 executions
+            enableScroll(); // Re-enable scrolling
+        }
+    }
 
     // Disable scrolling
     function disableScroll() {
