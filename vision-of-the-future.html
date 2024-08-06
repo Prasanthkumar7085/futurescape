@@ -15,12 +15,18 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="css/slick-theme.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.css">
   <link rel="stylesheet" href="css/app.css" />
+  <style>
+    .scroll-container {
+      overflow: hidden;
+    }
+  </style>
 </head>
 
-<body>
+<body data-scroll-container id="parentContainer">
   <!-- section One - Main Section -->
+  <div data-scroll-section>
    <section id="hero-navbar" class="inner-navbar bg-black">
     <nav id="navlist0" class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -44,50 +50,51 @@
         </div>
       </div>
     </nav>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-        <button type="button" class="btn-close text-end" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end text-end flex-grow-1 pe-3">
-          <li class="nav-item dropdown">
-            <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              About
-            </a>
-            <ul class="dropdown-sub mb-5">
-              <li><a class="dropdown-item" href="the-journey.html">Domain Selection</a></li>
-              <li><a class="dropdown-item" href="the-tournament.html">Tournament</a></li>
-              <li><a class="dropdown-item" href="team.html">Team</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Explore
-            </a>
-            <ul class="dropdown-sub mb-5">
-              <li><a class="dropdown-item" href="vision-of-the-future.html">Visions of Future</a></li>
-              <li><a class="dropdown-item" href="humans-of-prediction.html">Humans of Predictions</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link main-txt text-black">Time Machine</a>
-          </li>
-          <li class="nav-item">
-            <!-- <a href="#" class="nav-link text-black"></a> -->
-          </li>
-        </ul>
-      </div>
-    </div>
    </section>
-   <section id="inner-banner" class="bg-black pt-5">
+  </div>
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+      <button type="button" class="btn-close text-end" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end text-end flex-grow-1 pe-3">
+        <li class="nav-item dropdown">
+          <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-sub mb-5">
+            <li><a class="dropdown-item" href="the-journey.html">Domain Selection</a></li>
+            <li><a class="dropdown-item" href="the-tournament.html">Tournament</a></li>
+            <li><a class="dropdown-item" href="team.html">Team</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Explore
+          </a>
+          <ul class="dropdown-sub mb-5">
+            <li><a class="dropdown-item" href="vision-of-the-future.html">Visions of Future</a></li>
+            <li><a class="dropdown-item" href="humans-of-prediction.html">Humans of Predictions</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link main-txt text-black">Time Machine</a>
+        </li>
+        <li class="nav-item">
+          <!-- <a href="#" class="nav-link text-black"></a> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+   <section id="inner-banner" class="bg-black pt-5" data-scroll-section>
     <div class="container">
       <div class="row justify-content-left">
         <div class="col-lg-6">
-            <div class="img">
+            <div class="img" data-scroll data-scroll-speed="1">
               <img src="img/vision/vision-of-the-future.webp" alt="main" class="img-fluid w-25">
             </div>
-            <div class="content">
+            <div class="content" data-scroll data-scroll-speed="2">
               <h1 class="text-white mb-3">Visions of the future</h1>
               <p class="text-white des">A world of tomorrow where the insights of five expert forecasters meet the imagination of two talented AI artists. </p>
 
@@ -98,10 +105,10 @@
     </div>
    </section>
    <!--section two - humans faqs  -->
-   <section id="vision-future" class="section-gap bg-black">
+   <section id="vision-future" class="section-gap bg-black" data-scroll-section>
     <div class="container">
       <div class="row">
-        <div class="col-lg-7">
+        <div class="col-lg-7" data-scroll data-scroll-speed="1">
           <div class="img mb-4">
             <img src="img/vision/1.webp" alt="vision-image" class="img-fluid w-100">
           </div>
@@ -109,7 +116,7 @@
             <img src="img/vision/3.webp" alt="vision-image" class="img-fluid w-100">
           </div>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5" data-scroll data-scroll-speed="2">
           <div class="img mb-4">
             <img src="img/vision/2.webp" alt="vision-image" class="img-fluid w-100">
           </div>
@@ -129,7 +136,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
   </script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"
+  integrity="sha256-BnGmL6SMMBDHkgAWIUohV386CFjNtVgdGCqS3eDGr6c=" crossorigin="anonymous"></script>
+<!-- <script src="https://unpkg.com/scrollreveal@4"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
+<script src="js/scroll-animation.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
   integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
