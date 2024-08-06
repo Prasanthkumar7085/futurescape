@@ -15,12 +15,18 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="css/slick-theme.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.css">
   <link rel="stylesheet" href="css/app.css" />
+  <style>
+    .scroll-container {
+      overflow: hidden;
+    }
+  </style>
 </head>
 
-<body>
+<body data-scroll-container id="parentContainer">
   <!-- section One - Main Section -->
+  <div data-scroll-section>
    <section id="hero-navbar" class="inner-navbar bg-black">
     <nav id="navlist0" class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -44,66 +50,67 @@
         </div>
       </div>
     </nav>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-        <button type="button" class="btn-close text-end" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end text-end flex-grow-1 pe-3">
-          <li class="nav-item dropdown">
-            <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              About
-            </a>
-            <ul class="dropdown-sub mb-5">
-              <li><a class="dropdown-item" href="the-journey.html">Domain Selection</a></li>
-              <li><a class="dropdown-item" href="the-tournament.html">Tournament</a></li>
-              <li><a class="dropdown-item" href="team.html">Team</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Explore
-            </a>
-            <ul class="dropdown-sub mb-5">
-              <li><a class="dropdown-item" href="vision-of-the-future.html">Visions of Future</a></li>
-              <li><a class="dropdown-item" href="humans-of-prediction.html">Humans of Predictions</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link main-txt text-black">Time Machine</a>
-          </li>
-          <li class="nav-item">
-            <!-- <a href="#" class="nav-link text-black"></a> -->
-          </li>
-        </ul>
-      </div>
-    </div>
    </section>
-   <section id="inner-banner" class="pt-5 bg-black">
+   </div>
+   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+      <button type="button" class="btn-close text-end" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end text-end flex-grow-1 pe-3">
+        <li class="nav-item dropdown">
+          <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-sub mb-5">
+            <li><a class="dropdown-item" href="the-journey.html">Domain Selection</a></li>
+            <li><a class="dropdown-item" href="the-tournament.html">Tournament</a></li>
+            <li><a class="dropdown-item" href="team.html">Team</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Explore
+          </a>
+          <ul class="dropdown-sub mb-5">
+            <li><a class="dropdown-item" href="vision-of-the-future.html">Visions of Future</a></li>
+            <li><a class="dropdown-item" href="humans-of-prediction.html">Humans of Predictions</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link main-txt text-black">Time Machine</a>
+        </li>
+        <li class="nav-item">
+          <!-- <a href="#" class="nav-link text-black"></a> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+   <section id="inner-banner" class="pt-5 bg-black" data-scroll-section>
     <div class="container">
       <div class="row justify-content-left">
         <div class="col-lg-6 pt-5">
-            <div class="img">
+            <div class="img" data-scroll>
               <img src="img/tournament/the-tournament.webp" alt="main" class="img-fluid w-25">
             </div>
             <div class="content">
-              <h1 class="text-white mb-3">The Tournament</h1>
-              <p class="text-white des">In a longitudinal forecasting tournament, experts, superforecasters, and everyday people made predictions for one year into the future, two years into the future, and twenty years into the future for each of our four domains.  </p>
-              <p class="text-white des">Participants were encouraged to provide probability estimates, justify their predictions, and update their forecasts as new information emerged. They engaged with opponents, received accuracy feedback, and collaborated in shaping a comprehensive analysis of human progress debates.</p>
+              <h1 class="text-white mb-3" data-scroll data-scroll-speed="1">The Tournament</h1>
+              <p class="text-white des" data-scroll data-scroll-speed="2">In a longitudinal forecasting tournament, experts, superforecasters, and everyday people made predictions for one year into the future, two years into the future, and twenty years into the future for each of our four domains.  </p>
+              <p class="text-white des" data-scroll data-scroll-speed="3">Participants were encouraged to provide probability estimates, justify their predictions, and update their forecasts as new information emerged. They engaged with opponents, received accuracy feedback, and collaborated in shaping a comprehensive analysis of human progress debates.</p>
             </div>
         </div>
       </div>
     </div>
    </section>
    <!--section two - establishing domains  -->
-   <section id="timeline-forecasters" class="section-gap">
+   <section id="timeline-forecasters" class="section-gap" data-scroll-section>
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-          <p class="des">Our tournament started in Spring of 2022, and participants returned to repeat their future predictions in Spring of 2023 and Spring of 2024.</p>
+          <p class="des"  data-scroll data-scroll-speed="1">Our tournament started in Spring of 2022, and participants returned to repeat their future predictions in Spring of 2023 and Spring of 2024.</p>
           <div class="content mt-5">
-            <h1 class="mb-5">Timeline for forecasters</h1>
+            <h1 class="mb-5" data-scroll data-scroll-speed="2">Timeline for forecasters</h1>
           </div>
         </div>
         <div class="clearfix"></div>
@@ -112,7 +119,7 @@
             <div class="img mx-auto text-center">
               <img src="img/tournament/timeline-for-forecasters-1.webp" alt="" class="img-fluid">
             </div>
-            <div class="txt mt-3 text-center">
+            <div class="txt mt-3 text-center" data-scroll data-scroll-speed="1">
               <p><b>YEAR 1, SPRING 2022</b></p>
               <p class="des">Participants predicted outcomes for 2023, 2024, and 2042 for each domain</p>
             </div>
@@ -123,7 +130,7 @@
             <div class="img mx-auto text-center">
               <img src="img/tournament/timeline-for-forecasters-2.webp" alt="" class="img-fluid">
             </div>
-            <div class="txt mt-3 text-center">
+            <div class="txt mt-3 text-center" data-scroll data-scroll-speed="1">
               <p><b>YEAR 2, SPRING 2023</b></p>
               <p class="des">Participants predicted outcomes for 2024, and 2042 for each domain</p>
             </div>
@@ -134,7 +141,7 @@
             <div class="img mx-auto text-center">
               <img src="img/tournament/timelineforforecasters-3.webp" alt="" class="img-fluid">
             </div>
-            <div class="txt mt-3 text-center">
+            <div class="txt mt-3 text-center" data-scroll data-scroll-speed="1">
               <p><b>YEAR 3, SPRING 2024</b></p>
               <p class="des">Participants predicted outcomes for 2042 for each domain</p>
             </div>
@@ -144,21 +151,21 @@
     </div>
    </section>
    <!-- section three - initial domain -->
-   <section id="content-block" class="section-gap">
+   <section id="content-block" class="section-gap" data-scroll-section>
     <div class="container">
       <hr>
-      <div class="row mb-4">
+      <div class="row mb-4" data-scroll>
         <div class="col-lg-7">
-          <div class="content">
+          <div class="content" data-scroll data-scroll-speed="1">
             <h1 class="mb-3">Team Engagement</h1>
             <p class="des">In each year, participants had the opportunity to engage with a handful of teammates’ predictions and rationales. Some participants chose to leverage this wisdom of the crowd to update their predictions, whereas others maintained their original predictions and perspectives. Thus we were able to test how belief updating in response to team information relates to relative accuracy and improvements in accuracy.</p>
           </div>
         </div>
       </div>
       <hr>
-      <div class="row mb-4">
+      <div class="row mb-4" data-scroll>
         <div class="col-lg-7">
-          <div class="content">
+          <div class="content" data-scroll data-scroll-speed="1">
             <h1 class="mb-3">Responsiveness to Feedback</h1>
             <p>In Years 2 and 3, participants received feedback on how they performed relative to the entire set of participants. Some participants received positive feedback (e.g., “You scored among the top 5% in the tournament”), whereas others received negative feedback (e.g., “You scored among the bottom 5% in the tournament”). Thus we were able to test how positive and negative feedback predicts changes in accuracy and openness to teammates’ wisdom.</p>
           </div>
@@ -167,7 +174,7 @@
       <hr>
       <div class="row mb-4">
         <div class="col-lg-7">
-          <div class="content">
+          <div class="content" data-scroll data-scroll-speed="1">
             <h1 class="mb-3">Outcomes of Interest</h1>
             <p class="des">In addition to scoring participants’ accuracy in predicting the future of human welfare, we also measured and explored how their epistemic virtues–intellectual humility, open-mindedness, uncertainty, intelligence, willingness to update beliefs–changed over time and related to their accuracy</p>
           </div>
@@ -177,14 +184,14 @@
     </div>
    </section>
    <!-- section last - Lets Travel -->
-   <section id="lets-travel">
+   <section id="lets-travel" data-scroll-section>
     <div class="container">
       <div class="row justify-content-start">
         <div class="col-lg-6">
           <div class="content mb-5">
-            <h1 class="mb-3">Let’s time travel</h1>
-            <p class="des">Here’s your chance to test your forecasting abilities! Learn more about the 4 domains and how they change over time. The time machine is about to take off!</p>
-            <a href="#" class="btn btn-primary">Play the game</a>
+            <h1 class="mb-3" data-scroll data-scroll-speed="1">Let’s time travel</h1>
+            <p class="des" data-scroll data-scroll-speed="2">Here’s your chance to test your forecasting abilities! Learn more about the 4 domains and how they change over time. The time machine is about to take off!</p>
+            <a href="#" class="btn btn-primary"  data-scroll data-scroll-speed="3">Play the game</a>
           </div>
         </div>
       </div>
@@ -199,7 +206,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
   </script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"
+    integrity="sha256-BnGmL6SMMBDHkgAWIUohV386CFjNtVgdGCqS3eDGr6c=" crossorigin="anonymous"></script>
+  <!-- <script src="https://unpkg.com/scrollreveal@4"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
+  <script src="js/scroll-animation.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
   integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
