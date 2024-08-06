@@ -6,15 +6,15 @@ $(window).scroll(function () {
       $("#navlist0").removeClass("affix");
     }
   });
-let header = document.querySelector(".topnav");
-let storData = header.offsetTop;
-window.addEventListener("scroll", function (e) {
-  if (window.scrollY >= storData) {
-    header.classList.add("fixed");
-  } else {
-    header.classList.remove("fixed");
-  }
-});
+// let header = document.querySelector(".topnav");
+// let storData = header.offsetTop;
+// window.addEventListener("scroll", function (e) {
+//   if (window.scrollY >= storData) {
+//     header.classList.add("fixed");
+//   } else {
+//     header.classList.remove("fixed");
+//   }
+// });
   $(".c-year").text(new Date().getFullYear());
   $(document).ready(function () {
     $(".second-button").on("click", function () {

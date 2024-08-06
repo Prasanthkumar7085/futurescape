@@ -672,6 +672,11 @@ body {
   border: 0;
 }
 
+#indicator-selection .accordion-item p {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
+}
+
 @media (min-width: 991px) {
   #indicator-selection .accordion-item p {
     width: 60%;
@@ -691,6 +696,10 @@ body {
   padding-bottom: 10px;
 }
 
+#indicator-selection.inner-faqs .accordion {
+  margin-left: -1em;
+}
+
 #indicator-selection.inner-faqs .accordion-item {
   border-bottom: 1px solid #cecbcb;
 }
@@ -708,12 +717,12 @@ body {
 #indicator-selection.inner-faqs .accordion-item .txt .user {
   opacity: 0.9;
   margin-bottom: 0;
-  font-size: 0.875em;
+  font-size: 1em;
 }
 
 #indicator-selection.inner-faqs .accordion-item .txt .role {
   opacity: 0.9;
-  font-size: 0.875em;
+  font-size: 1em;
 }
 
 #the-tournment {
@@ -733,8 +742,17 @@ body {
   margin-bottom: 2.5em;
 }
 
+#meet-team .each-team img {
+  width: 100%;
+}
+
+#meet-team .each-team h4 {
+  font-weight: 400;
+}
+
 #meet-team .each-team .role {
-  opacity: 0.7;
+  opacity: 0.99;
+  color: #000;
 }
 
 #meet-team .each-team .des {
@@ -1895,6 +1913,11 @@ body {
   border: 0;
 }
 
+#indicator-selection .accordion-item p {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
+}
+
 @media (min-width: 991px) {
   #indicator-selection .accordion-item p {
     width: 60%;
@@ -1914,6 +1937,10 @@ body {
   padding-bottom: 10px;
 }
 
+#indicator-selection.inner-faqs .accordion {
+  margin-left: -1em;
+}
+
 #indicator-selection.inner-faqs .accordion-item {
   border-bottom: 1px solid #cecbcb;
 }
@@ -1931,12 +1958,12 @@ body {
 #indicator-selection.inner-faqs .accordion-item .txt .user {
   opacity: 0.9;
   margin-bottom: 0;
-  font-size: 0.875em;
+  font-size: 1em;
 }
 
 #indicator-selection.inner-faqs .accordion-item .txt .role {
   opacity: 0.9;
-  font-size: 0.875em;
+  font-size: 1em;
 }
 
 #the-tournment {
@@ -1956,8 +1983,17 @@ body {
   margin-bottom: 2.5em;
 }
 
+#meet-team .each-team img {
+  width: 100%;
+}
+
+#meet-team .each-team h4 {
+  font-weight: 400;
+}
+
 #meet-team .each-team .role {
-  opacity: 0.7;
+  opacity: 0.99;
+  color: #000;
 }
 
 #meet-team .each-team .des {

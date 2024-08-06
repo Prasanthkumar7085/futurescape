@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
     disableScroll();
 
     // Set the interval
-    // intervalId = setInterval(myFunction, 5000); // 1000 milliseconds = 1 second
+    intervalId = setInterval(myFunction, 5000); // 1000 milliseconds = 1 second
 });
 
 
