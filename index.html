@@ -32,7 +32,7 @@
     <div class="container">
       <div class="row">
         <div class="content text-center">
-          <h1 class="letterize text-white mb-0" data-scroll data-scroll-speed="1" id="mainHeading">
+          <h1 class="text-white mb-0" id="animateMe">
             Where is the world heading?</h1>
           <div class="img" data-scroll data-scroll-speed="2">
             <img src="img/home/globe.svg" alt="world" class="img-fluid">
@@ -46,9 +46,8 @@
     <div class="container">
       <div class="row">
         <div class="content text-center">
-          <h1 class="text-white mb-0" data-scroll data-scroll-speed="1">Can behavioural and social<br
-              class="d-none d-lg-block"> scientists predict
-            societal change?</h1>
+          <h1 class="text-white mb-0" id="animateMe" data-scroll data-scroll-speed="1">Can behavioural and social<br
+              class="d-none d-lg-block"> scientists predict societal change?</h1>
           <div class="img" data-scroll data-scroll-speed="2">
             <img src="img/home/predict.svg" alt="predict" class="img-fluid">
           </div>
@@ -61,8 +60,8 @@
     <div class="container">
       <div class="row">
         <div class="content text-center">
-          <h1 class="letterize text-white mb-0" data-scroll data-scroll-speed="1">What can a forecasting tournament
-            <br class="d-none d-lg-block"> inform us about human welfare? </h1>
+          <h1 class="letterize text-white mb-0" id="animateMe" data-scroll data-scroll-speed="1">
+            What can a forecasting tournament <br class="d-none d-lg-block"> inform us about human welfare? </h1>
           <div class="img">
             <img src="img/home/welfare.svg" alt="welfare" class="img-fluid" data-scroll data-scroll-speed="2">
           </div>
@@ -71,34 +70,37 @@
     </div>
   </section>
   <!-- section four - Main Section -->
-  <section id="hero-navbar" class="bg-black sticky-top" data-scroll-section>
-    <nav id="navlist-home" class="navbar topnav navbar-expand-lg">
-      <div class="container-fluid"  >
-        <a class="navbar-brand text-white" href="/">futurescape</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">About</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">Explore</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">Time Machine</a>
-            </li>
-          </ul>
+   <div class="" data-scroll-section>
+    <section id="hero-navbar" class="bg-black sticky-top" data-scroll-sticky>
+      <nav id="navlist-home" class="navbar topnav navbar-expand-lg">
+        <div class="container-fluid"  >
+          <a class="navbar-brand text-white" href="/">futurescape</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                  aria-controls="offcanvasNavbar">About</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                  aria-controls="offcanvasNavbar">Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                  aria-controls="offcanvasNavbar">Time Machine</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </section>
+      </nav>
+    </section>
+   </div>
+  
   <div class="" data-scroll-offset>
     <div class="offcanvas offcanvas-end"  tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
@@ -146,7 +148,7 @@
             <img src="img/home/main.svg" alt="main" class="img-fluid" data-scroll data-scroll-speed="2">
           </div>
           <div class="content">
-            <h1 class="text-white mb-3" data-scroll data-scroll-speed="2">Futurescape</h1>
+            <h1 id="animateMe" class="text-white mb-3" data-scroll data-scroll-speed="2">Futurescape</h1>
             <p class="text-white" data-scroll data-scroll-speed="2">A collaborative research initiative aimed at
               predicting the future of human welfare.
               Through a longitudinal forecasting tournament, we focus on debates over societal change and draw on the
@@ -162,7 +164,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-8  col-xxl-7">
           <div class="content">
-            <h1 data-scroll data-scroll-speed="1" data-scroll-offset="0%, 30%">Predicting tomorrow's world </h1>
+            <h1 id="animateMe" data-scroll data-scroll-speed="1" data-scroll-offset="0%, 30%">Predicting tomorrow's world </h1>
             <p class="des" data-scroll data-scroll-speed="1" data-scroll-offset="0%, 30%">Gathered from different
               corners of the globe, a target pool of 100 experts were able to
               identify 8 initial domains based on their opinions, team discussion, and relevance to human progress. They
@@ -236,7 +238,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 col-xxl-7">
-          <h1 data-scroll data-scroll-speed="1" data-scroll-offset="0%, 40%">Discover more about Futurescape</h1>
+          <h1 id="animateMe" data-scroll data-scroll-speed="1" data-scroll-offset="0%, 40%">Discover more about Futurescape</h1>
           <p class="des" data-scroll data-scroll-speed="2" data-scroll-offset="0%, 45%">Through the lens of
             super-forecasters, scientists, AI artists and game designers</p>
         </div>
@@ -310,7 +312,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-8 col-xxl-7">
           <div class="content my-5">
-            <h1 data-scroll data-scroll-speed="1" data-scroll-offset="0%, 40%">Let’s time travel</h1>
+            <h1 id="animateMe" data-scroll data-scroll-speed="1" data-scroll-offset="0%, 40%">Let’s time travel</h1>
             <p data-scroll data-scroll-speed="2" data-scroll-offset="0%, 45%">Here’s your chance to test your
               forecasting abilities! Learn more about the 4 domains and how they change
               over time. The time machine is about to take off!</p>
@@ -332,7 +334,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-8 col-xxl-7">
           <div class="content">
-            <h1 data-scroll data-scroll-speed="1" data-scroll-offset="0%, 40%">Join our community</h1>
+            <h1 id="animateMe" data-scroll data-scroll-speed="1" data-scroll-offset="0%, 40%">Join our community</h1>
             <p data-scroll data-scroll-speed="2" data-scroll-offset="0%, 45%">Receive latest project updates and curated
               learnings about forecasting, open-mindedness and intellectual
               humility.</p>
