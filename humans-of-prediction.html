@@ -13,17 +13,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<!-- <link rel="stylesheet" href="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.css"> -->
+<link rel="stylesheet" href="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.css">
   <link rel="stylesheet" href="css/app.css" />
-  <!-- <style>
+  <style>
     .scroll-container {
       overflow: hidden;
-    } -->
+    }
   </style>
 </head>
 
-<body>
-  <!-- section One - Main Section -->
+<body data-scroll-container id="parentContainer">
+  <div data-scroll-section>
+    <!-- section One - Main Section -->
    <section id="hero-navbar" class="inner-navbar bg-black">
     <nav id="navlist0" class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -48,6 +49,7 @@
       </div>
     </nav>
    </section>
+   </div>
    <div class="">  
     <div class="offcanvas offcanvas-end"  tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
@@ -87,7 +89,7 @@
       </div>
     </div>
   </div>
-   <section id="inner-banner" class="bg-black second-banner">
+   <section id="inner-banner" class="bg-black second-banner" data-scroll-section>
     <div class="container" >
       <div class="row justify-content-left">
         <div class="col-lg-6">
@@ -103,11 +105,11 @@
     </div>
    </section>
    <!--section two - humans faqs  -->
-   <section id="indicator-selection" class="section-gap inner-faqs">
+   <section id="indicator-selection" class="section-gap inner-faqs" data-scroll-section>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="accordion" id="accordionExample">
+          <div class="accordion" id="accordionExample" data-scroll data-scroll-speed="1">
             <div class="accordion-item">
               <h1 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
