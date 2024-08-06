@@ -460,7 +460,7 @@ body {
 
 #predicting .each-block .txt {
   background-color: #FBFBFB;
-  padding: 0.75em 1.25em;
+  padding: 1em 1.25em;
 }
 
 #predicting .each-block .txt h2 {
@@ -522,6 +522,11 @@ body {
   background-color: #0a18e1;
 }
 
+#lets-travel .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
+}
+
 #join-our-community {
   position: relative;
 }
@@ -548,6 +553,11 @@ body {
 
 #join-our-community ::placeholder {
   color: #ccc;
+}
+
+#join-our-community .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
 }
 
 #establishing {
@@ -739,6 +749,11 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+#inner-banner .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
 }
 
 @media (min-width: 991.98px) {
@@ -1661,7 +1676,7 @@ body {
 
 #predicting .each-block .txt {
   background-color: #FBFBFB;
-  padding: 0.75em 1.25em;
+  padding: 1em 1.25em;
 }
 
 #predicting .each-block .txt h2 {
@@ -1723,6 +1738,11 @@ body {
   background-color: #0a18e1;
 }
 
+#lets-travel .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
+}
+
 #join-our-community {
   position: relative;
 }
@@ -1749,6 +1769,11 @@ body {
 
 #join-our-community ::placeholder {
   color: #ccc;
+}
+
+#join-our-community .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
 }
 
 #establishing {
@@ -1940,6 +1965,11 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+#inner-banner .des {
+  font-size: clamp(1.15em, 1.25vw, 2.5em);
+  font-weight: 400;
 }
 
 @media (min-width: 991.98px) {
