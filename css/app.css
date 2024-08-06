@@ -600,6 +600,10 @@ body {
   position: relative;
 }
 
+#initial-domain .each-block .img img {
+  width: 100%;
+}
+
 #initial-domain .each-block .img .txt h4 {
   position: absolute;
   bottom: 10px;
@@ -615,6 +619,12 @@ body {
   background-color: #FBFBFB;
   -webkit-box-shadow: 0px 4px 4px 0px #0000000D;
           box-shadow: 0px 4px 4px 0px #0000000D;
+}
+
+@media (min-width: 2000px) {
+  #initial-domain .each-block .each-content {
+    min-height: 310px;
+  }
 }
 
 #initial-domain .each-block .each-content h4 {
@@ -1861,6 +1871,10 @@ body {
   position: relative;
 }
 
+#initial-domain .each-block .img img {
+  width: 100%;
+}
+
 #initial-domain .each-block .img .txt h4 {
   position: absolute;
   bottom: 10px;
@@ -1876,6 +1890,12 @@ body {
   background-color: #FBFBFB;
   -webkit-box-shadow: 0px 4px 4px 0px #0000000D;
           box-shadow: 0px 4px 4px 0px #0000000D;
+}
+
+@media (min-width: 2000px) {
+  #initial-domain .each-block .each-content {
+    min-height: 310px;
+  }
 }
 
 #initial-domain .each-block .each-content h4 {
