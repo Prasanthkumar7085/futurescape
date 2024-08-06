@@ -1,20 +1,20 @@
-$(window).scroll(function () {
-    var scroll = $(this).scrollTop();
-    if (scroll > 10) {
-      $("#navlist0").addClass("affix");
-    } else {
-      $("#navlist0").removeClass("affix");
-    }
-  });
-// let header = document.querySelector(".topnav");
-// let storData = header.offsetTop;
-// window.addEventListener("scroll", function (e) {
-//   if (window.scrollY >= storData) {
-//     header.classList.add("fixed");
-//   } else {
-//     header.classList.remove("fixed");
-//   }
-// });
+// $(window).scroll(function () {
+//     var scroll = $(this).scrollTop();
+//     if (scroll > 10) {
+//       $("#navlist0").addClass("affix");
+//     } else {
+//       $("#navlist0").removeClass("affix");
+//     }
+//   });
+  // let header = document.querySelector(".topnav");
+  // let storData = header.offsetTop;
+  // window.addEventListener("scroll", function (e) {
+  //   if (window.scrollY >= storData) {
+  //     header.classList.add("fixed");
+  //   } else {
+  //     header.classList.remove("fixed");
+  //   }
+  // });
   $(".c-year").text(new Date().getFullYear());
   $(document).ready(function () {
     $(".second-button").on("click", function () {

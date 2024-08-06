@@ -11,34 +11,45 @@
   <link rel="shortcut icon" href="img/fav_icon.svg" />
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="css/slick-theme.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.css">
   <link rel="stylesheet" href="css/app.css" />
+  <style>
+    .scroll-container {
+      overflow: hidden;
+    }
+  </style>
 </head>
 
-<body>
+<body data-scroll-container id="parentContainer">
   <!-- section One - Main Section -->
-   <section id="hero-navbar" class="inner-navbar bg-black">
+  <section id="hero-navbar" class="inner-navbar bg-black" data-scroll-section data-scroll-sticky>
     <nav id="navlist0" class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="/">futurescape</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">About</a>
+              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">About</a>
             </li>
-            
+
             <li class="nav-item">
-              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">Explore</a>
+              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">Explore</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">Time Machine</a>
+              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">Time Machine</a>
             </li>
           </ul>
         </div>
@@ -52,7 +63,8 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end text-end flex-grow-1 pe-3">
           <li class="nav-item dropdown">
-            <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               About
             </a>
             <ul class="dropdown-sub mb-5">
@@ -62,7 +74,8 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link main-txt text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Explore
             </a>
             <ul class="dropdown-sub mb-5">
@@ -79,56 +92,64 @@
         </ul>
       </div>
     </div>
-   </section>
-   <section id="inner-banner-intro" class="section-gap bg-black">
+  </section>
+  <section id="inner-banner-intro" class="section-gap bg-black" data-scroll-section>
     <div class="container">
       <div class="row justify-content-left">
         <div class="col-lg-6">
-            <div class="img">
-              <img src="img/home/main.svg" alt="main" class="img-fluid w-25">
-            </div>
-            <div class="content">
-              <h1 class="text-white mb-3">The Journey</h1>
-              <p class="text-white des mb-5">In Futurescape, we explored the potential of forecasting tournaments in fostering open-mindedness, intellectual humility, and accurate forecasting among participants. Listen to Igor Grossmann, Principal Investigator on how our journey unfolded. </p>
-            </div>
+          <div class="img" data-scroll>
+            <img src="img/home/main.svg" alt="main" class="img-fluid w-25">
+          </div>
+          <div class="content">
+            <h1 class="text-white mb-3" data-scroll data-scroll-speed="1">The Journey</h1>
+            <p class="text-white des mb-5" data-scroll data-scroll-speed="2">In Futurescape, we explored the potential
+              of forecasting tournaments in fostering open-mindedness, intellectual humility, and accurate forecasting
+              among participants. Listen to Igor Grossmann, Principal Investigator on how our journey unfolded. </p>
+          </div>
         </div>
         <div class="col-lg-12 mt-5">
-          <div class="video">
+          <div class="video" data-scroll data-scroll-speed="1">
             <img src="img/about/journey-video.png" alt="journey-video" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
 
-    </section>
-   <!--section two - establishing domains  -->
-   <section id="establishing" class="section-gap">
+  </section>
+  <!--section two - establishing domains  -->
+  <section id="establishing" class="section-gap" data-scroll-section>
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
           <div class="content">
-            <h1 class="mb-5"> Establishing quantifiable domains</h1>
-            <p><b>EXPERT SELECTION</b></p>
-            <p class="des">Participants from various professional organizations were asked to nominate experts with optimistic, pessimistic, and realistic perspectives on the future of human welfare and societal change.</p>
-            <p class="des">Gathered from different corners of the globe, 28 distinguished scholars nominated 68 experts on human welfare. 34 experts were selected from the 68 based on expertise and ensuring discipline diversity in the sample. An additional 66 experts we identified to reach a target sample pool of 100.</p>
+            <h1 class="mb-5" data-scroll data-scroll-speed="1">Establishing quantifiable domains</h1>
+            <p data-scroll data-scroll-speed="1"><b>EXPERT SELECTION</b></p>
+            <p class="des" data-scroll data-scroll-speed="1">Participants from various professional organizations were
+              asked to nominate experts with optimistic, pessimistic, and realistic perspectives on the future of human
+              welfare and societal change.</p>
+            <p class="des" data-scroll data-scroll-speed="1">Gathered from different corners of the globe, 28
+              distinguished scholars nominated 68 experts on human welfare. 34 experts were selected from the 68 based
+              on expertise and ensuring discipline diversity in the sample. An additional 66 experts we identified to
+              reach a target sample pool of 100.</p>
           </div>
         </div>
       </div>
     </div>
-   </section>
-   <!-- section three - initial domain -->
-   <section id="initial-domain" class="section-gap">
+  </section>
+  <!-- section three - initial domain -->
+  <section id="initial-domain" class="section-gap" data-scroll-section>
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
           <div class="content">
-            <p><b>INITIAL DOMAIN SELECTION</b></p>
-            <p class="des">Eight domains were preselected based on expert opinion, team discussion, and relevance to human progress.</p>
+            <p data-scroll data-scroll-speed="1"><b>INITIAL DOMAIN SELECTION</b></p>
+            <p class="des" data-scroll data-scroll-speed="1">Eight domains were preselected based on expert opinion,
+              team discussion, and relevance to human progress.</p>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="blocks-slider mt-4">
-            <div class="each-block">
+            <div class="each-block" data-scroll data-scroll-speed="1">
               <div class="img">
                 <img src="img/about/01.webp" alt="one" class="img-fluid">
                 <div class="txt">
@@ -192,7 +213,7 @@
                 <h4>Education</h4>
                 <p>Indicators:</p>
                 <ol>
-                  <li>Literacy Rates  </li>
+                  <li>Literacy Rates </li>
                   <li>Mean Years of Schooling</li>
                 </ol>
               </div>
@@ -234,76 +255,99 @@
         </div>
       </div>
     </div>
-   </section>
-   <section id="indicator-selection" class="section-gap">
+  </section>
+  <section id="indicator-selection" class="section-gap" data-scroll-section>
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
-            <p class="mb-3 text-uppercase"><b>Indicator selection</b></p>
-            <p class="des">Preselected indicators for each domain were chosen based on specific criteria including indicator specificity, global accessibility of data, data quality, and temporal resolution. Indicators and data sources needed to meet all criteria to be considered reliable.</p>
+            <p class="mb-3 text-uppercase" data-scroll data-scroll-speed="1"><b>Indicator selection</b></p>
+            <p class="des" data-scroll data-scroll-speed="1">Preselected indicators for each domain were chosen based on specific criteria including
+              indicator specificity, global accessibility of data, data quality, and temporal resolution. Indicators and
+              data sources needed to meet all criteria to be considered reliable.</p>
           </div>
         </div>
         <div class="col-lg-12 mt-5">
-          <div class="accordion" id="accordionExample">
+          <div class="accordion" id="accordionExample" data-scroll data-scroll-speed="1">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                 <sup>01</sup> Specific and quantifiable
+              <h1 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <sup>01</sup> Specific and quantifiable
                 </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              </h1>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p>Is the indicator concretely definable and does it reveal enough specific information to allow for measurement ? Successful indicators were ranked higher if they directly provided method of measurement (e.g., “number of”, “rate of”, etc.)</p>
+                  <p class="des">Is the indicator concretely definable and does it reveal enough specific information to allow for
+                    measurement ? Successful indicators were ranked higher if they directly provided method of
+                    measurement (e.g., “number of”, “rate of”, etc.)</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h1 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   <sup>02</sup> Data availability
                 </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              </h1>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p>Is there any data for this indicator publicly available to indicate changes to human welfare? </p>
+                  <p class="des">Is there any data for this indicator publicly available to indicate changes to human welfare? </p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h1 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   <sup>03</sup> Global reporting
                 </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              </h1>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p>Does the source provide data for at least a third of all countries (i.e. minimum sixty-five countries) and does each country report data at least from the last ten years? Indicators that represent data representative of just the world (e.g., size of smallest chips in mass production) were treated as passing this criteria.</p>
+                  <p class="des">Does the source provide data for at least a third of all countries (i.e. minimum sixty-five
+                    countries) and does each country report data at least from the last ten years? Indicators that
+                    represent data representative of just the world (e.g., size of smallest chips in mass production)
+                    were treated as passing this criteria.</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="heading4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              <h1 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                   <sup>04</sup> Transparency
                 </button>
-              </h2>
-              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+              </h1>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p><b>Data transparency:</b> Is there accessible metadata explaining methods of data aggregation and estimation for missing data?</p>
-                  <p><b>Composition transparency:</b> Is there accessible metadata explaining the relationships of sub-indicators for syntactic indicators (i.e., indicators that do not exist as real-world phenomena but are derived from multiple sub-indicators)? For example, socioeconomic status is a syntactic variable that can be derived from income, educational attainment, pre-existing wealth, etc. If the indicator did not represent a syntactic variable, it automatically passed this criteria</p>
+                  <p class="des"><b>Data transparency:</b> Is there accessible metadata explaining methods of data aggregation and
+                    estimation for missing data?</p>
+                  <p class="des"><b>Composition transparency:</b> Is there accessible metadata explaining the relationships of
+                    sub-indicators for syntactic indicators (i.e., indicators that do not exist as real-world phenomena
+                    but are derived from multiple sub-indicators)? For example, socioeconomic status is a syntactic
+                    variable that can be derived from income, educational attainment, pre-existing wealth, etc. If the
+                    indicator did not represent a syntactic variable, it automatically passed this criteria</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="heading5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              <h1 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                   <sup>05</sup> Temporal resolution
                 </button>
-              </h2>
-              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+              </h1>
+              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p>Is the data for this indicator systematically updated (e.g., on an annual basis) or are there major gaps in temporal resolution with no data for recent years?</p>
+                  <p class="des">Is the data for this indicator systematically updated (e.g., on an annual basis) or are there major
+                    gaps in temporal resolution with no data for recent years?</p>
                 </div>
               </div>
             </div>
@@ -311,16 +355,17 @@
         </div>
       </div>
     </div>
-   </section>
-   <section id="predicting" class="section-gap">
+  </section>
+  <section id="predicting" class="section-gap" data-scroll-section>
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
-            <p><b>FINAL DOMAIN SELECTION</b></p>
-            <p class="des">Experts individually ranked the eight preselected domains by perceived importance. They selected 4 domains as the most important. 
+            <p data-scroll data-scroll-speed="1"><b>FINAL DOMAIN SELECTION</b></p>
+            <p class="des" data-scroll data-scroll-speed="1">Experts individually ranked the eight preselected domains by perceived importance. They
+              selected 4 domains as the most important.
             </p>
-          <p class="des">24 additional experts voted on the most reliable markers for each of these domains.</p>
+            <p class="des" data-scroll data-scroll-speed="1">24 additional experts voted on the most reliable markers for each of these domains.</p>
           </div>
         </div>
       </div>
@@ -371,14 +416,15 @@
         </div>
       </div>
     </div>
-   </section>
-   <section id="the-tournment" class="bg-black">
-     <div class="container">
+  </section>
+  <section id="the-tournment" class="bg-black" data-scroll-section>
+    <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="content text-white">
-            <h1 class="mb-2">Forecasting Tournament</h1>
-            <p class="des">Experts, super-forecasters, and everyday people made predictions for each of these four domains.</p>
+            <h1 class="mb-2" data-scroll data-scroll-speed="1" data-scroll-delay="0.14">Forecasting Tournament</h1>
+            <p class="des" data-scroll data-scroll-speed="1" data-scroll-delay="0.14">Experts, super-forecasters, and
+              everyday people made predictions for each of these four domains.</p>
             <a href="#" class="btn btn-primary">Learn more</a>
           </div>
         </div>
@@ -388,19 +434,24 @@
           </div>
         </div>
       </div>
-     </div>
-   </section>
-   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-  crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
   </script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-  integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="js/sliders.js"></script>
-<script src="js/app.js"></script>
+  <script src="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"
+    integrity="sha256-BnGmL6SMMBDHkgAWIUohV386CFjNtVgdGCqS3eDGr6c=" crossorigin="anonymous"></script>
+  <!-- <script src="https://unpkg.com/scrollreveal@4"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
+  <script src="js/scroll-animation.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/sliders.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
