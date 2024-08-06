@@ -129,20 +129,20 @@ document.addEventListener('DOMContentLoaded', function () {
 //         translateY: 0
 //     });
 
-const test = new Letterize({
-      targets: "#animateMe"
-    });
+// const test = new Letterize({
+//       targets: "#animateMe"
+//     });
 
-    var animation = anime.timeline({
-      targets: test.listAll,
-      delay: anime.stagger(50),
-      loop: true
-    });
+//     var animation = anime.timeline({
+//       targets: test.listAll,
+//       delay: anime.stagger(50),
+//       loop: true
+//     });
 
-    animation
-      .add({
-        translateY: -10
-      })
-      .add({
-        translateY: 0
-      });
+//     animation
+//       .add({
+//         translateY: -10
+//       })
+//       .add({
+//         translateY: 0
+//       });
