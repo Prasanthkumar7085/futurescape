@@ -753,6 +753,13 @@ body {
 #the-tournment {
   position: relative;
   padding: 5em 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #the-tournment p {
@@ -2024,6 +2031,13 @@ body {
 #the-tournment {
   position: relative;
   padding: 5em 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #the-tournment p {
