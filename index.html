@@ -143,13 +143,16 @@
   <section id="inner-banner" class="bg-black pb-5" data-scroll-section>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8 col-xxl-7">
+        <div class="col-lg-4">
           <div class="img text-center">
             <img src="img/home/main.svg" alt="main" class="img-fluid" data-scroll data-scroll-speed="2">
           </div>
-          <div class="content">
-            <h1 id="mainHeading" class="text-white mb-3" data-scroll data-scroll-speed="2">Futurescape</h1>
-            <p class="text-white des" data-scroll data-scroll-speed="2">A collaborative research initiative aimed at
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-lg-8 col-xxl-7">
+          <div class="content" data-scroll data-scroll-speed="1">
+            <h1 id="mainHeading" class="text-white mb-3" >Futurescape</h1>
+            <p class="text-white des">A collaborative research initiative aimed at
               predicting the future of human welfare.
               Through a longitudinal forecasting tournament, we focus on debates over societal change and draw on the
               predictions of experts, keen-eyed “superforecasters” and everyday people.</p>
@@ -237,9 +240,9 @@
   <section id="discover-more" class="section-gap" data-scroll-section>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8 col-xxl-7">
-          <h1 id="mainHeading" data-scroll data-scroll-speed="1" data-scroll-offset="0%, 40%">Discover more about Futurescape</h1>
-          <p class="des" data-scroll data-scroll-speed="2" data-scroll-offset="0%, 45%">Through the lens of
+        <div class="col-lg-8 col-xxl-7" data-scroll data-scroll-speed="2">
+          <h1 id="mainHeading">Discover more about Futurescape</h1>
+          <p class="des">Through the lens of
             super-forecasters, scientists, AI artists and game designers</p>
         </div>
         <div class="clearfix mb-4"></div>
@@ -311,14 +314,13 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 col-xxl-7">
-          <div class="content my-5">
-            <h1 id="mainHeading" data-scroll data-scroll-speed="1" data-scroll-offset="0%, 40%">Let’s time travel</h1>
-            <p class="des" data-scroll data-scroll-speed="2" data-scroll-offset="0%, 55%">Here’s your chance to test your
+          <div class="content my-5" data-scroll data-scroll-speed="2">
+            <h1 id="mainHeading">Let’s time travel</h1>
+            <p class="des">Here’s your chance to test your
               forecasting abilities! Learn more about the 4 domains and how they change
               over time. The time machine is about to take off!</p>
             <div class="button mb-5">
-              <a href="#" class="btn btn-primary mb-5" data-scroll data-scroll-speed="2"
-                data-scroll-offset="0%, 45%">Play the game</a>
+              <a href="#" class="btn btn-primary mb-5">Play the game</a>
             </div>
           </div>
         </div>
@@ -333,12 +335,12 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 col-xxl-7">
-          <div class="content">
-            <h1 id="mainHeading" data-scroll data-scroll-speed="1" data-scroll-offset="0%, 40%">Join our community</h1>
-            <p class="des" data-scroll data-scroll-speed="2" data-scroll-offset="0%, 55%">Receive latest project updates and curated
+          <div class="content" data-scroll data-scroll-speed="2">
+            <h1 id="mainHeading">Join our community</h1>
+            <p class="des mt-3">Receive latest project updates and curated
               learnings about forecasting, open-mindedness and intellectual
               humility.</p>
-            <div id="contactForm"  data-scroll data-scroll-speed="2" data-scroll-offset="0%, 60%">
+            <div id="contactForm">
               <form class="form-details" @submit.prevent="ContactForm">
                 <div class="row form-row">
                   <div class="col-lg-8">
