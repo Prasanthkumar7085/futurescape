@@ -23,13 +23,24 @@
     .scroll-container {
       overflow: hidden;
     }
+    .sticky {
+  position: sticky;
+  z-index: 999;
+}
+#nav {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  opacity: 1 !important;
+  pointer-events: visible !important;
+}
   </style>
 </head>
 
 <body data-scroll-container id="parentContainer">
   <!-- section One - Main Section -->
-   <div data-scroll-section>
-  <section id="hero-navbar" class="inner-navbar bg-black">
+   <div data-scroll-section id="nav">
+  <section id="hero-navbar" class="inner-navbar bg-black sticky" data-scroll  data-scroll-sticky data-scroll-target="#nav">
     <nav id="navlist0" class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="/">futurescape</a>
@@ -168,7 +179,7 @@
                 </ol>
               </div>
             </div>
-            <div class="each-block">
+            <div class="each-block" data-scroll data-scroll-speed="2">
               <div class="img">
                 <img src="img/about/02.webp" alt="one" class="img-fluid">
                 <div class="txt">
@@ -186,7 +197,7 @@
                 </ol>
               </div>
             </div>
-            <div class="each-block">
+            <div class="each-block" data-scroll data-scroll-speed="1">
               <div class="img">
                 <img src="img/about/03.webp" alt="one" class="img-fluid">
                 <div class="txt">
@@ -205,7 +216,7 @@
                 </ol>
               </div>
             </div>
-            <div class="each-block">
+            <div class="each-block" data-scroll data-scroll-speed="2">
               <div class="img">
                 <img src="img/about/04.webp" alt="one" class="img-fluid">
                 <div class="txt">
@@ -221,7 +232,7 @@
                 </ol>
               </div>
             </div>
-            <div class="each-block">
+            <div class="each-block" data-scroll data-scroll-speed="1">
               <div class="img">
                 <img src="img/about/05.webp" alt="one" class="img-fluid">
                 <div class="txt">
@@ -238,7 +249,7 @@
                 </ol>
               </div>
             </div>
-            <div class="each-block">
+            <div class="each-block" data-scroll data-scroll-speed="2">
               <div class="img">
                 <img src="img/about/06.png" alt="one" class="img-fluid">
                 <div class="txt">
@@ -271,16 +282,15 @@
           </div>
         </div>
         <div class="col-lg-12 mt-5">
-          <div class="accordion" id="accordionExample" data-scroll data-scroll-speed="1">
-            <div class="accordion-item">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item" data-scroll data-scroll-speed="1">
               <h1 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                   aria-expanded="true" aria-controls="collapseOne">
                   <sup>01</sup> Specific and quantifiable
                 </button>
               </h1>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse show">
                 <div class="accordion-body">
                   <p class="des">Is the indicator concretely definable and does it reveal enough specific information to allow for
                     measurement ? Successful indicators were ranked higher if they directly provided method of
@@ -288,7 +298,7 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" data-scroll data-scroll-speed="2">
               <h1 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -302,15 +312,14 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" data-scroll data-scroll-speed="1">
               <h1 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   <sup>03</sup> Global reporting
                 </button>
               </h1>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
+              <div id="collapseThree" class="accordion-collapse collapse">
                 <div class="accordion-body">
                   <p class="des">Does the source provide data for at least a third of all countries (i.e. minimum sixty-five
                     countries) and does each country report data at least from the last ten years? Indicators that
@@ -319,15 +328,14 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" data-scroll data-scroll-speed="2">
               <h1 class="accordion-header" id="heading4">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                   <sup>04</sup> Transparency
                 </button>
               </h1>
-              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
-                data-bs-parent="#accordionExample">
+              <div id="collapse4" class="accordion-collapse collapse">
                 <div class="accordion-body">
                   <p class="des"><b>Data transparency:</b> Is there accessible metadata explaining methods of data aggregation and
                     estimation for missing data?</p>
@@ -339,15 +347,14 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" data-scroll data-scroll-speed="1">
               <h1 class="accordion-header" id="heading5">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                   <sup>05</sup> Temporal resolution
                 </button>
               </h1>
-              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
-                data-bs-parent="#accordionExample">
+              <div id="collapse5" class="accordion-collapse collapse">
                 <div class="accordion-body">
                   <p class="des">Is the data for this indicator systematically updated (e.g., on an annual basis) or are there major
                     gaps in temporal resolution with no data for recent years?</p>
@@ -373,7 +380,7 @@
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-scroll data-scroll-speed="1">
           <div class="each-block">
             <div class="img">
               <img src="img/home/climate.png" alt="climate" class="img-fluid w-100">
@@ -384,7 +391,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-scroll data-scroll-speed="2">
           <div class="each-block">
             <div class="img">
               <img src="img/home/economy.png" alt="economy" class="img-fluid w-100">
@@ -395,7 +402,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-scroll data-scroll-speed="1">
           <div class="each-block">
             <div class="img">
               <img src="img/home/health.png" alt="health" class="img-fluid w-100">
@@ -406,7 +413,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-scroll data-scroll-speed="2">
           <div class="each-block">
             <div class="img">
               <img src="img/home/peace.png" alt="peace" class="img-fluid w-100">

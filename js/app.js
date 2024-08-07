@@ -1,11 +1,11 @@
-// $(window).scroll(function () {
-//     var scroll = $(this).scrollTop();
-//     if (scroll > 10) {
-//       $("#navlist0").addClass("affix");
-//     } else {
-//       $("#navlist0").removeClass("affix");
-//     }
-//   });
+$(window).scroll(function () {
+    var scroll = $(this).scrollTop();
+    if (scroll > 10) {
+      $("#navlist0").addClass("affix");
+    } else {
+      $("#navlist0").removeClass("affix");
+    }
+  });
   // let header = document.querySelector(".topnav");
   // let storData = header.offsetTop;
   // window.addEventListener("scroll", function (e) {

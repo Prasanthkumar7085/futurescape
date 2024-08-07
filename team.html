@@ -21,13 +21,22 @@
     .scroll-container {
       overflow: hidden;
     }
+    .sticky {
+  position: sticky;
+  z-index: 999;
+}
+#nav {
+  position: sticky;
+  z-index: 999;
+  opacity: 1 !important;
+  pointer-events: visible !important;
+}
   </style>
 </head>
-
 <body data-scroll-container id="parentContainer">
   <!-- section One - Main Section -->
-  <div data-scroll-section>
-   <section id="hero-navbar" class="inner-navbar bg-black">
+  <div data-scroll-section id="nav">
+   <section id="hero-navbar" class="inner-navbar bg-black sticky" data-scroll  data-scroll-sticky data-scroll-target="#nav">
     <nav id="navlist0" class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="/">futurescape</a>
@@ -249,12 +258,13 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
   </script>
-<script src="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"
-  integrity="sha256-BnGmL6SMMBDHkgAWIUohV386CFjNtVgdGCqS3eDGr6c=" crossorigin="anonymous"></script>
-<!-- <script src="https://unpkg.com/scrollreveal@4"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
-<script src="js/scroll-animation.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"
+   integrity="sha256-BnGmL6SMMBDHkgAWIUohV386CFjNtVgdGCqS3eDGr6c=" crossorigin="anonymous"></script> -->
+ <!-- <script src="https://unpkg.com/scrollreveal@4"></script>  -->
+ <script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
+<script src="js/scroll-animation.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
   integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/sliders.js"></script>

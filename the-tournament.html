@@ -21,13 +21,24 @@
     .scroll-container {
       overflow: hidden;
     }
+    .sticky {
+  position: sticky;
+  z-index: 999;
+}
+#nav {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  opacity: 1 !important;
+  pointer-events: visible !important;
+}
   </style>
 </head>
 
 <body data-scroll-container id="parentContainer">
   <!-- section One - Main Section -->
-  <div data-scroll-section>
-   <section id="hero-navbar" class="inner-navbar bg-black">
+  <div data-scroll-section id="nav">
+   <section id="hero-navbar" class="inner-navbar bg-black sticky" data-scroll  data-scroll-sticky data-scroll-target="#nav">
     <nav id="navlist0" class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="/">futurescape</a>
