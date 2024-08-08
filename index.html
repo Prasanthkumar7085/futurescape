@@ -66,8 +66,8 @@
   </section>
   <!-- section four - Main Section -->
    <div id="main-header" class="bg-black">
-    <section id="hero-navbar" class="bg-black" data-aos="fade-up" data-aos-duration="1400">
-      <nav id="navlist-home" class="navbar topnav navbar-expand-lg">
+    <section id="hero-navbar" class="bg-black topnav">
+      <nav id="navlist" class="navbar navbar-expand-lg" data-aos="fade-up" data-aos-duration="1400">
         <div class="container-fluid"  >
           <a class="navbar-brand text-white" href="/">futurescape</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -392,13 +392,24 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
     integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="/js/axios.min.js"></script>
   <script src="/js/vee-validate.js"></script>
   <script src="/js/vue.js"></script>
   <script src="/js/form.js"></script>
   <script src="js/sliders.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/app.js"></script>
+  <script>
+      let header = document.querySelector(".topnav");
+  let storData = header.offsetTop;
+  window.addEventListener("scroll", function (e) {
+    if (window.scrollY >= storData) {
+      header.classList.add("fixed");
+    } else {
+      header.classList.remove("fixed");
+    }
+  });
+  </script>
 </body>
 
 </html>

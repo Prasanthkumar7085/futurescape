@@ -13,30 +13,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.css">
-  <link rel="stylesheet" href="css/app.css" />
-  <style>
-    .scroll-container {
-      overflow: hidden;
-    }
-    .sticky {
-  position: sticky;
-  z-index: 999;
-}
-#nav {
-  position: sticky;
-  z-index: 999;
-  top: 0;
-  opacity: 1 !important;
-  pointer-events: visible !important;
-}
-  </style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css" />
 </head>
 
-<body data-scroll-container id="parentContainer">
-  <div data-scroll-section id="nav">
+<body>
+  <div>
     <!-- section One - Main Section -->
-   <section id="hero-navbar" class="inner-navbar bg-black sticky" data-scroll  data-scroll-sticky data-scroll-target="#nav">
+   <section id="hero-navbar" class="inner-navbar bg-black">
     <nav id="navlist0" class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="/">futurescape</a>
@@ -100,28 +84,28 @@
       </div>
     </div>
   </div>
-   <section id="inner-banner" class="bg-black second-banner" data-scroll-section>
+   <section id="inner-banner" class="bg-black second-banner">
     <div class="container" >
       <div class="row justify-content-left">
         <div class="col-lg-6">
-            <div class="img" data-scroll>
+            <div class="img" data-aos="fade-up" data-aos-duration="1000">
               <img src="img/human-prediction.webp" alt="main" class="img-fluid w-25">
             </div>
-            <div class="content">
-              <h1 class="text-white mb-3" data-scroll data-scroll-speed="2">Humans of Predictions</h1>
-              <p class="text-white des" data-scroll data-scroll-speed="1">We interviewed five top performers from the Forecasting Tournament to gain insights into their personal journeys with forecasting, advice for newcomers, and candid thoughts on the future of human welfare. Discover their stories and wisdom as they share their unique perspectives on predicting the future.</p>
+            <div class="content" data-aos="fade-up" data-aos-duration="1000">
+              <h1 class="text-white mb-3">Humans of Predictions</h1>
+              <p class="text-white des">We interviewed five top performers from the Forecasting Tournament to gain insights into their personal journeys with forecasting, advice for newcomers, and candid thoughts on the future of human welfare. Discover their stories and wisdom as they share their unique perspectives on predicting the future.</p>
             </div>
         </div>
       </div>
     </div>
    </section>
    <!--section two - humans faqs  -->
-   <section id="indicator-selection" class="section-gap inner-faqs" data-scroll-section>
+   <section id="indicator-selection" class="section-gap inner-faqs">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="accordion" id="accordionExample">
-            <div class="accordion-item" data-scroll data-scroll-speed="1">
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
               <h1 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne">
                   3 tips for aspiring forecasters
@@ -138,7 +122,7 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item" data-scroll data-scroll-speed="2">
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1200">
               <h1 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo">
                   How forecasting changed me
@@ -154,7 +138,7 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item" data-scroll data-scroll-speed="1">
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1400">
               <h1 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree">
                   Say no to personal biases!
@@ -170,7 +154,7 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item" data-scroll data-scroll-speed="2">
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1600">
               <h1 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse41" aria-expanded="false" aria-controls="collapse4">
                   Hopes & concerns about the future
@@ -186,7 +170,7 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item" data-scroll data-scroll-speed="1">
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1800">
               <h1 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse51" aria-expanded="false" aria-controls="collapse5">
                   The looming challenge of AI
@@ -214,12 +198,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
   </script>
-<script src="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"
-  integrity="sha256-BnGmL6SMMBDHkgAWIUohV386CFjNtVgdGCqS3eDGr6c=" crossorigin="anonymous"></script>
-<!-- <script src="https://unpkg.com/scrollreveal@4"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
-<script src="js/scroll-animation.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/app.js"></script>
 </body>
 
