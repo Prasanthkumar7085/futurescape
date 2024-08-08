@@ -15,28 +15,14 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="css/slick-theme.css">
-  <link rel="stylesheet" href="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/app.css" />
-  <style>
-    .scroll-container {
-      overflow: hidden;
-    }
-    .sticky {
-  position: sticky;
-  z-index: 999;
-}
-#nav {
-  position: sticky;
-  z-index: 999;
-  opacity: 1 !important;
-  pointer-events: visible !important;
-}
-  </style>
+  
 </head>
-<body data-scroll-container id="parentContainer">
+<body>
   <!-- section One - Main Section -->
-  <div data-scroll-section id="nav">
-   <section id="hero-navbar" class="inner-navbar bg-black sticky" data-scroll  data-scroll-sticky data-scroll-target="#nav">
+  <div id="nav">
+   <section id="hero-navbar" class="inner-navbar bg-black sticky">
     <nav id="navlist0" class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="/">futurescape</a>
@@ -100,10 +86,10 @@
     <div class="container">
       <div class="row justify-content-left">
         <div class="col-lg-6">
-            <div class="img" data-scroll data-scroll-speed="1">
+            <div class="img" data-aos="fade-up" data-aos-duration="1000">
               <img src="img/team/team-main.svg" alt="main" class="img-fluid w-25">
             </div>
-            <div class="content" data-scroll data-scroll-speed="2">
+            <div class="content" data-aos="fade-up" data-aos-duration="1000">
               <h1 class="text-white mb-3">How did we bring our<br class="d-none d-lg-block"/> vision to life?</h1>
               <p class="text-white des">Countless hours of collaboration, writing research proposals, brainstorming across time zones, analysing data, asking tough questions, and celebrating small wins. All of this with a dedicated team of brilliant minds and passionate hearts. Meet the following people who led a project of this magnitude to fruition.</p>
             </div>
@@ -112,11 +98,11 @@
     </div>
    </section>
    <!--section two - establishing domains  -->
-    <section id="meet-team" class="section-gap" data-scroll-section>
+    <section id="meet-team" class="section-gap">
       <div class="container">
-        <h1 class="mb-4" data-scroll data-scroll-speed="1">Meet the team</h1>
+        <h1 class="mb-4" data-aos="fade-up" data-aos-duration="1000">Meet the team</h1>
         <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="1">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/01.webp" alt="one" class="img-fluid">
@@ -128,7 +114,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="2">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/02.webp" alt="team-image" class="img-fluid">
@@ -140,7 +126,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="3">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/03.webp" alt="team-image" class="img-fluid">
@@ -152,7 +138,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="1">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/04.webp" alt="team-image" class="img-fluid">
@@ -164,7 +150,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="2">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/05.webp" alt="team-image" class="img-fluid">
@@ -176,7 +162,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="3">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/06.webp" alt="team-image" class="img-fluid">
@@ -188,7 +174,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="1">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/07.webp" alt="team-image" class="img-fluid">
@@ -200,7 +186,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="2">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/08.webp" alt="team-image" class="img-fluid">
@@ -212,7 +198,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="3">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/09.webp" alt="team-image" class="img-fluid">
@@ -224,7 +210,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="1">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/10.webp" alt="team-image" class="img-fluid">
@@ -236,7 +222,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12" data-scroll data-scroll-speed="2">
+          <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
             <div class="each-team">
               <div class="img">
                 <img src="img/team/11.webp" alt="team-image" class="img-fluid">
@@ -258,12 +244,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
   </script>
-<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"
-   integrity="sha256-BnGmL6SMMBDHkgAWIUohV386CFjNtVgdGCqS3eDGr6c=" crossorigin="anonymous"></script> -->
- <!-- <script src="https://unpkg.com/scrollreveal@4"></script>  -->
- <script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
-<script src="js/scroll-animation.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
   integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
