@@ -850,6 +850,7 @@ body {
 #inner-banner .des {
   font-size: clamp(1.15em, 1.25vw, 2.5em);
   font-weight: 400;
+  opacity: .7;
 }
 
 @media (min-width: 991.98px) {
@@ -2224,6 +2225,7 @@ body {
 #inner-banner .des {
   font-size: clamp(1.15em, 1.25vw, 2.5em);
   font-weight: 400;
+  opacity: .7;
 }
 
 @media (min-width: 991.98px) {
