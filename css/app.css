@@ -721,16 +721,25 @@ body {
   padding-bottom: 10px;
 }
 
+#indicator-selection.inner-faqs .accordion-button {
+  font-size: inherit;
+}
+
 #indicator-selection.inner-faqs .accordion {
   margin-left: -1em;
 }
 
 #indicator-selection.inner-faqs .accordion-item {
   border-bottom: 1px solid #cecbcb;
+  margin-top: 1em;
 }
 
 #indicator-selection.inner-faqs .accordion-item:last-child {
   border-bottom: 0;
+}
+
+#indicator-selection.inner-faqs .accordion-item .accordion-body {
+  margin-bottom: 2em;
 }
 
 @media (min-width: 991.98px) {
@@ -2005,16 +2014,25 @@ body {
   padding-bottom: 10px;
 }
 
+#indicator-selection.inner-faqs .accordion-button {
+  font-size: inherit;
+}
+
 #indicator-selection.inner-faqs .accordion {
   margin-left: -1em;
 }
 
 #indicator-selection.inner-faqs .accordion-item {
   border-bottom: 1px solid #cecbcb;
+  margin-top: 1em;
 }
 
 #indicator-selection.inner-faqs .accordion-item:last-child {
   border-bottom: 0;
+}
+
+#indicator-selection.inner-faqs .accordion-item .accordion-body {
+  margin-bottom: 2em;
 }
 
 @media (min-width: 991.98px) {
