@@ -729,7 +729,7 @@ body {
 }
 
 #indicator-selection .accordion-button {
-  font-size: 2rem;
+  font-size: inherit;
   padding-bottom: 10px;
 }
 
@@ -2095,7 +2095,7 @@ body {
 }
 
 #indicator-selection .accordion-button {
-  font-size: 2rem;
+  font-size: inherit;
   padding-bottom: 10px;
 }
 
