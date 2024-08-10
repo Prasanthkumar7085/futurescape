@@ -6,6 +6,9 @@
     }
     .form-row {
         --bs-gutter-x: 0.5rem;
+        @include media-breakpoint-up(xxxl){
+            align-items: center;
+        }
     }
     ::placeholder {
         color: #ccc;

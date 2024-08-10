@@ -507,7 +507,7 @@ body {
 }
 
 #discover-more .each-block .img .txt p {
-  font-size: clamp(2em, 2.314vw, 5em);
+  font-size: clamp(1.75em, 2.314vw, 5em);
   text-align: center;
   color: #fff;
   font-family: "EB Garamond", sans-serif;
@@ -544,6 +544,14 @@ body {
 
 #join-our-community .form-row {
   --bs-gutter-x: 0.5rem;
+}
+
+@media (min-width: 1999.98px) {
+  #join-our-community .form-row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 #join-our-community ::-webkit-input-placeholder {
@@ -631,6 +639,10 @@ body {
   margin-bottom: 10px;
   font-weight: 600;
   font-size: clamp(1em, 1.157vw, 2.5em);
+}
+
+#initial-domain .each-block .each-content ol {
+  padding-left: 1rem;
 }
 
 #initial-domain .each-block .each-content ol li {
@@ -793,6 +805,7 @@ body {
 
 #meet-team .each-team h4 {
   font-weight: 400;
+  font-size: clamp(1.15em, 1.504vw, 3em);
 }
 
 #meet-team .each-team h4 a {
@@ -845,6 +858,28 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+#timeline-forecasters {
+  position: relative;
+}
+
+@media (min-width: 1999.98px) {
+  #timeline-forecasters .each-block .des {
+    width: 75%;
+    margin: 0 auto;
+  }
+  #timeline-forecasters h1 {
+    margin-bottom: 1em !important;
+  }
+}
+
+.team-banner .img {
+  margin-bottom: 2em;
+}
+
+.team-banner .img img {
+  height: 220px;
 }
 
 body {
@@ -950,6 +985,12 @@ button:hover {
   -webkit-transition: all 0.3s ease !important;
   -moz-transition: all 0.3s ease !important;
   -o-transition: all 0.3s ease !important;
+}
+
+@media (min-width: 2000px) {
+  .offcanvas.offcanvas-end {
+    width: 600px;
+  }
 }
 
 @media (min-width: 991px) {
@@ -1095,6 +1136,12 @@ input[type="number"]::-webkit-outer-spin-button {
   .error-display {
     height: 30px;
     font-size: 12px;
+  }
+}
+
+@media (min-width: 1999.98px) {
+  .error-display {
+    position: absolute;
   }
 }
 
@@ -1826,7 +1873,7 @@ body {
 }
 
 #discover-more .each-block .img .txt p {
-  font-size: clamp(2em, 2.314vw, 5em);
+  font-size: clamp(1.75em, 2.314vw, 5em);
   text-align: center;
   color: #fff;
   font-family: "EB Garamond", sans-serif;
@@ -1863,6 +1910,14 @@ body {
 
 #join-our-community .form-row {
   --bs-gutter-x: 0.5rem;
+}
+
+@media (min-width: 1999.98px) {
+  #join-our-community .form-row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 #join-our-community ::-webkit-input-placeholder {
@@ -1950,6 +2005,10 @@ body {
   margin-bottom: 10px;
   font-weight: 600;
   font-size: clamp(1em, 1.157vw, 2.5em);
+}
+
+#initial-domain .each-block .each-content ol {
+  padding-left: 1rem;
 }
 
 #initial-domain .each-block .each-content ol li {
@@ -2112,6 +2171,7 @@ body {
 
 #meet-team .each-team h4 {
   font-weight: 400;
+  font-size: clamp(1.15em, 1.504vw, 3em);
 }
 
 #meet-team .each-team h4 a {
@@ -2164,6 +2224,28 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+#timeline-forecasters {
+  position: relative;
+}
+
+@media (min-width: 1999.98px) {
+  #timeline-forecasters .each-block .des {
+    width: 75%;
+    margin: 0 auto;
+  }
+  #timeline-forecasters h1 {
+    margin-bottom: 1em !important;
+  }
+}
+
+.team-banner .img {
+  margin-bottom: 2em;
+}
+
+.team-banner .img img {
+  height: 220px;
 }
 
 body {

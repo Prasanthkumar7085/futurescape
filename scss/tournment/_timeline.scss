@@ -1,0 +1,21 @@
+#timeline-forecasters {
+    position: relative;
+    
+    @include media-breakpoint-up(xxxl){
+           .each-block .des {
+            width: 75%;
+            margin: 0 auto;
+        }
+        h1 {
+            margin-bottom: 1em !important;
+        }
+    }
+}
+.team-banner {
+    .img {
+        margin-bottom: 2em;
+        img {
+            height: 220px;
+        }
+    }
+}
