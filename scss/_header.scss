@@ -17,6 +17,9 @@ body {
     // width: 100%;
     // position: relative;
     z-index: 999999  !important;
+    &.inner-navbar {
+      padding-top: 2em;
+    }
     .topnav {
       overflow: hidden;
       background-color: #000;

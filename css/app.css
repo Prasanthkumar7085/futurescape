@@ -100,6 +100,10 @@ body {
   z-index: 999999  !important;
 }
 
+#hero-navbar.inner-navbar {
+  padding-top: 2em;
+}
+
 #hero-navbar .topnav {
   overflow: hidden;
   background-color: #000;
@@ -1474,6 +1478,10 @@ body {
 
 #hero-navbar {
   z-index: 999999  !important;
+}
+
+#hero-navbar.inner-navbar {
+  padding-top: 2em;
 }
 
 #hero-navbar .topnav {
