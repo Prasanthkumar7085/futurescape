@@ -96,7 +96,15 @@ a:hover,
 button:hover {
   @include hover_transition();
 }
-
+@media (min-width:991px){
+  .offcanvas-header {
+    padding-top: 3em;
+    padding-right: 6em !important;
+  }
+  .offcanvas-body {
+    padding-right: 5em;
+  }
+}
 ul {
   padding: 0;
   margin: 0;
