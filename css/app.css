@@ -587,6 +587,7 @@ body {
 #inner-banner-intro .des {
   font-size: clamp(1.15em, 1.25vw, 2.5em);
   font-weight: 400;
+  opacity: .7;
 }
 
 #establishing {
@@ -1962,6 +1963,7 @@ body {
 #inner-banner-intro .des {
   font-size: clamp(1.15em, 1.25vw, 2.5em);
   font-weight: 400;
+  opacity: .7;
 }
 
 #establishing {
