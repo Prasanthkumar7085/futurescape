@@ -1088,7 +1088,7 @@ input[type="number"]::-webkit-outer-spin-button {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 9999999 !important;
+  z-index: 999 !important;
   width: 100%;
   background: #000000;
   -webkit-box-shadow: 0 0 1.25rem rgba(30, 34, 40, 0.06);
@@ -2359,5 +2359,11 @@ body {
 
 span {
   display: inline-block;
+}
+
+#content-block ol li::marker {
+  font-size: clamp(3em, 3.703vw, 8em);
+  font-weight: 600;
+  font-family: "Inter";
 }
 /*# sourceMappingURL=app.css.map */
