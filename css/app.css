@@ -916,6 +916,12 @@ button {
   font-weight: 300;
 }
 
+.accordion-button:focus {
+  border-color: inherit !important;
+  -webkit-box-shadow: inherit !important;
+          box-shadow: inherit !important;
+}
+
 a:hover,
 button:hover {
   transition: all 0.3s ease !important;

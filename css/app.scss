@@ -88,7 +88,10 @@ button {
 .btn {
   font-weight: 300;
 }
-
+.accordion-button:focus {
+  border-color: inherit !important;
+  box-shadow: inherit !important;
+}
 a:hover,
 button:hover {
   @include hover_transition();
