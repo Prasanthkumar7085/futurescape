@@ -104,6 +104,9 @@ button:hover {
   .offcanvas-body {
     padding-right: 5em;
   }
+  .offcanvas {
+    z-index: 99999999 !important;
+  }
 }
 ul {
   padding: 0;
