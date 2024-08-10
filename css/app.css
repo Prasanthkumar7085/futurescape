@@ -805,7 +805,7 @@ body {
 
 #meet-team .each-team h4 {
   font-weight: 400;
-  font-size: clamp(1.15em, 1.504vw, 3em);
+  font-size: clamp(1.5em, 1.504vw, 3em);
 }
 
 #meet-team .each-team h4 a {
@@ -2171,7 +2171,7 @@ body {
 
 #meet-team .each-team h4 {
   font-weight: 400;
-  font-size: clamp(1.15em, 1.504vw, 3em);
+  font-size: clamp(1.5em, 1.504vw, 3em);
 }
 
 #meet-team .each-team h4 a {
