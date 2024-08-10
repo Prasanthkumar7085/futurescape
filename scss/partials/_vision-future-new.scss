@@ -1,0 +1,32 @@
+#vision-future-new {
+    position: relative;
+    .content {
+        .des {
+            opacity: .7;
+            font-size: 1em;
+        }
+    }
+    .user {
+        align-items: center;
+        margin-top: 3em;
+        .txt {
+            h4 {
+                font-size: clamp(1.5em, 1.504, 3.25em);
+            }
+            p {
+                font-size: 1em;
+                opacity: .7;
+            }
+        }
+    }
+    .each-block {
+        margin-bottom: 2em;
+        .txt {
+            margin-top: 8px;
+            p {
+                opacity: .7;
+                font-size: 1em;
+            }
+        }
+    }
+}

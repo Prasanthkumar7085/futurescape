@@ -896,6 +896,44 @@ body {
   height: 220px;
 }
 
+#vision-future-new {
+  position: relative;
+}
+
+#vision-future-new .content .des {
+  opacity: .7;
+  font-size: 1em;
+}
+
+#vision-future-new .user {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3em;
+}
+
+#vision-future-new .user .txt h4 {
+  font-size: clamp(1.5em, 1.504, 3.25em);
+}
+
+#vision-future-new .user .txt p {
+  font-size: 1em;
+  opacity: .7;
+}
+
+#vision-future-new .each-block {
+  margin-bottom: 2em;
+}
+
+#vision-future-new .each-block .txt {
+  margin-top: 8px;
+}
+
+#vision-future-new .each-block .txt p {
+  opacity: .7;
+  font-size: 1em;
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -2274,6 +2312,44 @@ body {
 
 .team-banner .img img {
   height: 220px;
+}
+
+#vision-future-new {
+  position: relative;
+}
+
+#vision-future-new .content .des {
+  opacity: .7;
+  font-size: 1em;
+}
+
+#vision-future-new .user {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3em;
+}
+
+#vision-future-new .user .txt h4 {
+  font-size: clamp(1.5em, 1.504, 3.25em);
+}
+
+#vision-future-new .user .txt p {
+  font-size: 1em;
+  opacity: .7;
+}
+
+#vision-future-new .each-block {
+  margin-bottom: 2em;
+}
+
+#vision-future-new .each-block .txt {
+  margin-top: 8px;
+}
+
+#vision-future-new .each-block .txt p {
+  opacity: .7;
+  font-size: 1em;
 }
 
 body {
