@@ -466,12 +466,16 @@ body {
 
 #predicting .each-block .txt {
   background-color: #FBFBFB;
-  padding: 1em 1.25em;
+  padding: 1.5em 1.25em 2em;
 }
 
 #predicting .each-block .txt h2 {
   text-align: center;
   font-size: clamp(2em, 2.7vw, 5em);
+}
+
+#predicting.inner-predicting .each-block .txt {
+  padding: 2em 1.25em;
 }
 
 #discover-more {
@@ -858,6 +862,10 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+#inner-banner.home-banner .des {
+  opacity: .7;
 }
 
 #timeline-forecasters {
@@ -1832,12 +1840,16 @@ body {
 
 #predicting .each-block .txt {
   background-color: #FBFBFB;
-  padding: 1em 1.25em;
+  padding: 1.5em 1.25em 2em;
 }
 
 #predicting .each-block .txt h2 {
   text-align: center;
   font-size: clamp(2em, 2.7vw, 5em);
+}
+
+#predicting.inner-predicting .each-block .txt {
+  padding: 2em 1.25em;
 }
 
 #discover-more {
@@ -2224,6 +2236,10 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+#inner-banner.home-banner .des {
+  opacity: .7;
 }
 
 #timeline-forecasters {
