@@ -432,6 +432,18 @@ body {
           align-items: end;
 }
 
+#world .down-arrow {
+  position: absolute;
+  bottom: 2em;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#world .down-arrow-1 {
+  bottom: 2em;
+}
+
 #world .img img {
   margin: 0 auto;
 }
@@ -441,6 +453,12 @@ body {
     width: 450px;
     height: 450px;
   }
+}
+
+.anchor {
+  height: 40px;
+  z-index: -1;
+  margin-top: -40px;
 }
 
 #predicting {
@@ -1850,6 +1868,18 @@ body {
           align-items: end;
 }
 
+#world .down-arrow {
+  position: absolute;
+  bottom: 2em;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#world .down-arrow-1 {
+  bottom: 2em;
+}
+
 #world .img img {
   margin: 0 auto;
 }
@@ -1859,6 +1889,12 @@ body {
     width: 450px;
     height: 450px;
   }
+}
+
+.anchor {
+  height: 40px;
+  z-index: -1;
+  margin-top: -40px;
 }
 
 #predicting {
@@ -2363,7 +2399,5 @@ span {
 
 #content-block ol li::marker {
   font-size: clamp(3em, 3.703vw, 8em);
-  font-weight: 600;
-  font-family: "Inter";
 }
 /*# sourceMappingURL=app.css.map */

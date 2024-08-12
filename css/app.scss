@@ -435,8 +435,6 @@ body {
     li {
       &::marker {
         font-size: clamp(3em, 3.703vw, 8em);
-        font-weight: 600;   
-        font-family: "Inter";   
       }
     }
   }

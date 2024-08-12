@@ -4,7 +4,16 @@
     height: 100vh;
     display: flex;
     align-items: end;
-
+    .down-arrow {
+        position: absolute;
+        bottom: 2em;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }  
+    .down-arrow-1 {
+        bottom: 2em;
+    }    
     .img {
         img {
             margin: 0 auto;
@@ -15,3 +24,8 @@
         }
     }
 }
+.anchor {
+    height: 40px;
+    z-index: -1;
+    margin-top: -40px;
+  }
