@@ -203,7 +203,7 @@ body {
   transform: rotate(0deg);
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-  background: #333;
+  background: #fff;
 }
 
 #hero-navbar .animated-icon2 span:nth-child(1) {
@@ -1621,7 +1621,7 @@ body {
   transform: rotate(0deg);
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-  background: #333;
+  background: #fff;
 }
 
 #hero-navbar .animated-icon2 span:nth-child(1) {

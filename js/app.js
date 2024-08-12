@@ -6,6 +6,15 @@ $(window).scroll(function () {
       $("#navlist0").removeClass("affix");
     }
   });
+  // $(window).scroll(function () {
+  //   var scroll = $(this).scrollTop();
+  //   if (scroll > 10) {
+  //     $(".hamburger-home").addClass("affix");
+  //   } else {
+  //     $(".hamburger-home").removeClass("affix");
+  //   }
+  // });
+
   $(".c-year").text(new Date().getFullYear());
   $(document).ready(function () {
     $(".second-button").on("click", function () {
