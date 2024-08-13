@@ -500,6 +500,95 @@ body {
   padding: 2em 1.25em;
 }
 
+#predicting.inner-predicting .each-one {
+  position: relative;
+  border: 0.4px solid #0000001A;
+}
+
+#predicting.inner-predicting .each-one .img {
+  position: relative;
+}
+
+#predicting.inner-predicting .each-one .img img {
+  width: 100%;
+}
+
+#predicting.inner-predicting .each-one .img .txt h4 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+  color: #fff;
+  font-size: clamp(2em, 4vw, 9em);
+}
+
+#predicting.inner-predicting .each-one .each-content {
+  padding: 10px;
+  min-height: 230px;
+  background-color: #FBFBFB;
+  -webkit-box-shadow: 0px 4px 4px 0px #0000000D;
+          box-shadow: 0px 4px 4px 0px #0000000D;
+}
+
+@media (min-width: 2000px) {
+  #predicting.inner-predicting .each-one .each-content {
+    min-height: 310px;
+  }
+}
+
+#predicting.inner-predicting .each-one .each-content h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: clamp(1em, 1.157vw, 2.5em);
+}
+
+#predicting.inner-predicting .each-one .each-content ol {
+  padding-left: 1rem;
+}
+
+#predicting.inner-predicting .each-one .each-content ol li {
+  font-size: clamp(0.775em, 0.7vw, 1.15em);
+}
+
+#predicting.inner-predicting .each-one .each-content p {
+  font-weight: 700;
+  font-size: clamp(0.775em, 0.7vw, 1.15em);
+}
+
+#predicting.inner-predicting .slick-list {
+  overflow: visible;
+}
+
+#predicting.inner-predicting .slick-list {
+  overflow: visible;
+  padding: 0 0 0 0;
+  position: relative;
+  z-index: -1;
+}
+
+#predicting.inner-predicting .slick-list::after {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 4000px;
+  right: 100%;
+  background-color: white;
+}
+
+#predicting.inner-predicting .slick-track {
+  margin-left: inherit;
+}
+
+#predicting.inner-predicting .slick-slider {
+  margin: 0 -10px;
+}
+
+#predicting.inner-predicting .slick-slide {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 #discover-more {
   position: relative;
 }
@@ -1934,6 +2023,95 @@ body {
 
 #predicting.inner-predicting .each-block .txt {
   padding: 2em 1.25em;
+}
+
+#predicting.inner-predicting .each-one {
+  position: relative;
+  border: 0.4px solid #0000001A;
+}
+
+#predicting.inner-predicting .each-one .img {
+  position: relative;
+}
+
+#predicting.inner-predicting .each-one .img img {
+  width: 100%;
+}
+
+#predicting.inner-predicting .each-one .img .txt h4 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+  color: #fff;
+  font-size: clamp(2em, 4vw, 9em);
+}
+
+#predicting.inner-predicting .each-one .each-content {
+  padding: 10px;
+  min-height: 230px;
+  background-color: #FBFBFB;
+  -webkit-box-shadow: 0px 4px 4px 0px #0000000D;
+          box-shadow: 0px 4px 4px 0px #0000000D;
+}
+
+@media (min-width: 2000px) {
+  #predicting.inner-predicting .each-one .each-content {
+    min-height: 310px;
+  }
+}
+
+#predicting.inner-predicting .each-one .each-content h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: clamp(1em, 1.157vw, 2.5em);
+}
+
+#predicting.inner-predicting .each-one .each-content ol {
+  padding-left: 1rem;
+}
+
+#predicting.inner-predicting .each-one .each-content ol li {
+  font-size: clamp(0.775em, 0.7vw, 1.15em);
+}
+
+#predicting.inner-predicting .each-one .each-content p {
+  font-weight: 700;
+  font-size: clamp(0.775em, 0.7vw, 1.15em);
+}
+
+#predicting.inner-predicting .slick-list {
+  overflow: visible;
+}
+
+#predicting.inner-predicting .slick-list {
+  overflow: visible;
+  padding: 0 0 0 0;
+  position: relative;
+  z-index: -1;
+}
+
+#predicting.inner-predicting .slick-list::after {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 4000px;
+  right: 100%;
+  background-color: white;
+}
+
+#predicting.inner-predicting .slick-track {
+  margin-left: inherit;
+}
+
+#predicting.inner-predicting .slick-slider {
+  margin: 0 -10px;
+}
+
+#predicting.inner-predicting .slick-slide {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #discover-more {
