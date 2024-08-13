@@ -2577,5 +2577,6 @@ span {
 
 #content-block ol li::marker {
   font-size: clamp(3em, 3.703vw, 8em);
+  font-family: "EB Garamond", sans-serif;
 }
 /*# sourceMappingURL=app.css.map */
