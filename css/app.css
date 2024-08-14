@@ -1073,6 +1073,10 @@ body {
   font-size: 1em;
 }
 
+#about-artist .des {
+  opacity: .7;
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -2632,6 +2636,10 @@ body {
   opacity: .7;
   font-weight: 400;
   font-size: 1em;
+}
+
+#about-artist .des {
+  opacity: .7;
 }
 
 body {
