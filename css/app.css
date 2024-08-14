@@ -1067,7 +1067,7 @@ body {
 }
 
 .images-blocks .image-sub {
-  margin-top: 5px;
+  margin-top: 10px;
   opacity: .7;
   font-weight: 400;
   font-size: 1em;
@@ -1075,6 +1075,7 @@ body {
 
 #about-artist .des {
   opacity: .7;
+  color: #000000;
 }
 
 body {
@@ -1560,7 +1561,8 @@ input[type="number"] {
 }
 
 .des-1 {
-  opacity: .9;
+  opacity: .9 !important;
+  color: #000;
 }
 
 .blueColor {
@@ -2632,7 +2634,7 @@ body {
 }
 
 .images-blocks .image-sub {
-  margin-top: 5px;
+  margin-top: 10px;
   opacity: .7;
   font-weight: 400;
   font-size: 1em;
@@ -2640,6 +2642,7 @@ body {
 
 #about-artist .des {
   opacity: .7;
+  color: #000000;
 }
 
 body {

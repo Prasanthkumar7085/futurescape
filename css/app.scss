@@ -430,7 +430,8 @@ body {
   }
 }
 .des-1 {
-  opacity: .9;
+  opacity: .9 !important;
+  color: #000
 }
 @import "component";
 #content-block {
