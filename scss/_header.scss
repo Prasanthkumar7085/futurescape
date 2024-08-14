@@ -217,3 +217,20 @@ body {
     }
   }
 }
+.single-navbar {
+  .navbar-brand {
+    color: #000;
+  }
+  .nav-link {
+    color: #000 !important;
+    font-weight: 400;
+  }
+  .affix {
+    .navbar-brand {
+      color: #fff;
+    }
+    .nav-link {
+      color: #fff !important;
+    }
+  }
+}

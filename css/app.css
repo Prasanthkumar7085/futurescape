@@ -316,6 +316,23 @@ body {
   height: 15px;
 }
 
+.single-navbar .navbar-brand {
+  color: #000;
+}
+
+.single-navbar .nav-link {
+  color: #000 !important;
+  font-weight: 400;
+}
+
+.single-navbar .affix .navbar-brand {
+  color: #fff;
+}
+
+.single-navbar .affix .nav-link {
+  color: #fff !important;
+}
+
 #footer {
   background: #1A427C;
   padding: 4em 0;
@@ -1538,6 +1555,10 @@ input[type="number"] {
   color: #fff;
 }
 
+.des-1 {
+  opacity: .9;
+}
+
 .blueColor {
   color: #1A427C;
 }
@@ -1854,6 +1875,23 @@ body {
   background-image: url(/img/arrow-sub.svg);
   width: 13px;
   height: 15px;
+}
+
+.single-navbar .navbar-brand {
+  color: #000;
+}
+
+.single-navbar .nav-link {
+  color: #000 !important;
+  font-weight: 400;
+}
+
+.single-navbar .affix .navbar-brand {
+  color: #fff;
+}
+
+.single-navbar .affix .nav-link {
+  color: #fff !important;
 }
 
 #footer {
