@@ -1,6 +1,9 @@
 #inner-banner {
     position: relative;
     padding: 2em 0;
+    @include media-breakpoint-down(lg){
+        padding-top: 18em !important;
+    }
     @include media-breakpoint-up(xxl){
         height: calc(100vh - 60px);
         display: flex;

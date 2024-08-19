@@ -1,6 +1,9 @@
 #inner-banner-intro {
     position: relative;
     padding-top: 8em;
+    @include media-breakpoint-down(lg){
+        padding-top: 24em;
+    }
     .des {
         font-size: clamp(1.15em, 1.25vw, 2.5em);
         font-weight: 400;
