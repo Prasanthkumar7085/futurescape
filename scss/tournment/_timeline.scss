@@ -10,6 +10,14 @@
             margin-bottom: 1em !important;
         }
     }
+    @include media-breakpoint-down(lg) {
+        .each-block {
+            margin-bottom: 6em;
+            img {
+                margin-bottom: 2em;
+            }
+        }
+    }
 }
 .team-banner {
     .img {
@@ -18,4 +26,22 @@
             height: 220px;
         }
     }
+}
+#content-block {
+    .each-block-img {
+        margin-bottom: 3em;
+        @include media-breakpoint-down(lg){
+            margin-bottom: 6em;
+        }
+        @include media-breakpoint-down(lg){
+            margin-bottom: 10em;
+        }
+        h4 {
+            font-weight: 700;
+            font-size: clamp(1em, 1vw 2em);
+            color: #000;
+            margin-bottom: 1em;
+        }
+    }
+
 }

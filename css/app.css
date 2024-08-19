@@ -1010,12 +1010,44 @@ body {
   }
 }
 
+@media (max-width: 991.98px) {
+  #timeline-forecasters .each-block {
+    margin-bottom: 6em;
+  }
+  #timeline-forecasters .each-block img {
+    margin-bottom: 2em;
+  }
+}
+
 .team-banner .img {
   margin-bottom: 2em;
 }
 
 .team-banner .img img {
   height: 220px;
+}
+
+#content-block .each-block-img {
+  margin-bottom: 3em;
+}
+
+@media (max-width: 991.98px) {
+  #content-block .each-block-img {
+    margin-bottom: 6em;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #content-block .each-block-img {
+    margin-bottom: 10em;
+  }
+}
+
+#content-block .each-block-img h4 {
+  font-weight: 700;
+  font-size: clamp(1em, 1vw 2em);
+  color: #000;
+  margin-bottom: 1em;
 }
 
 #vision-future-new {
@@ -1296,7 +1328,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 @media (max-width: 576px) {
-  .container-fluid {
+  .container-fluid, .container {
     padding-right: 1.5em;
     padding-left: 1.5em;
   }
@@ -2576,12 +2608,44 @@ body {
   }
 }
 
+@media (max-width: 991.98px) {
+  #timeline-forecasters .each-block {
+    margin-bottom: 6em;
+  }
+  #timeline-forecasters .each-block img {
+    margin-bottom: 2em;
+  }
+}
+
 .team-banner .img {
   margin-bottom: 2em;
 }
 
 .team-banner .img img {
   height: 220px;
+}
+
+#content-block .each-block-img {
+  margin-bottom: 3em;
+}
+
+@media (max-width: 991.98px) {
+  #content-block .each-block-img {
+    margin-bottom: 6em;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #content-block .each-block-img {
+    margin-bottom: 10em;
+  }
+}
+
+#content-block .each-block-img h4 {
+  font-weight: 700;
+  font-size: clamp(1em, 1vw 2em);
+  color: #000;
+  margin-bottom: 1em;
 }
 
 #vision-future-new {
