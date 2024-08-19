@@ -222,6 +222,14 @@ body {
   top: 20px;
 }
 
+#hero-navbar .animated-icon2.inner-icon span {
+  background: #000 !important;
+}
+
+#hero-navbar .affix .inner-icon span {
+  background: #fff !important;
+}
+
 @media (max-width: 991.98px) {
   #hero-navbar .navbar-collapse {
     position: absolute;
@@ -1766,6 +1774,14 @@ body {
 
 #hero-navbar .animated-icon2 span:nth-child(4) {
   top: 20px;
+}
+
+#hero-navbar .animated-icon2.inner-icon span {
+  background: #000 !important;
+}
+
+#hero-navbar .affix .inner-icon span {
+  background: #fff !important;
 }
 
 @media (max-width: 991.98px) {

@@ -129,6 +129,11 @@ body {
             top: 20px;
           }
         }
+        &.inner-icon {
+          span {
+            background: #000 !important;
+          }
+        }
       }
       // .animated-icon2.open {
       //   span {
@@ -156,6 +161,13 @@ body {
       //     }
       //   }
       // }
+      .affix {
+        .inner-icon {
+          span {
+            background: #fff !important;
+          }
+        }
+      }
       @include media-breakpoint-down(lg){
         .navbar-collapse {
           position: absolute;
