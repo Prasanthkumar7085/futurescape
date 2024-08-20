@@ -509,6 +509,17 @@ body {
   padding: 2em 1.25em;
 }
 
+@media (max-width: 767px) {
+  #predicting.inner-predicting .mobile-climate-slider {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
 #predicting.inner-predicting .each-one {
   position: relative;
   border: 0.4px solid #0000001A;
@@ -528,7 +539,7 @@ body {
   left: 10px;
   z-index: 1;
   color: #fff;
-  font-size: clamp(2em, 4vw, 9em);
+  font-size: clamp(4.5em, 4vw, 9em);
 }
 
 #predicting.inner-predicting .each-one .each-content {
@@ -749,7 +760,7 @@ body {
   left: 10px;
   z-index: 1;
   color: #fff;
-  font-size: clamp(2em, 4vw, 9em);
+  font-size: clamp(4.5em, 4vw, 9em);
 }
 
 #initial-domain .each-block .each-content {
@@ -864,6 +875,16 @@ body {
   padding-bottom: 10px;
 }
 
+@media (max-width: 767.98px) {
+  #indicator-selection .accordion-button {
+    padding: 0;
+  }
+  #indicator-selection .accordion-button sup {
+    left: -10px;
+    top: -0.75em;
+  }
+}
+
 #indicator-selection.inner-faqs .accordion-button {
   font-size: inherit;
 }
@@ -912,6 +933,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  #the-tournment.forecasting {
+    height: 900px;
+  }
+  #the-tournment.forecasting .content {
+    margin-bottom: 3em;
+  }
 }
 
 #the-tournment p {
@@ -2113,6 +2143,17 @@ body {
   padding: 2em 1.25em;
 }
 
+@media (max-width: 767px) {
+  #predicting.inner-predicting .mobile-climate-slider {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
 #predicting.inner-predicting .each-one {
   position: relative;
   border: 0.4px solid #0000001A;
@@ -2132,7 +2173,7 @@ body {
   left: 10px;
   z-index: 1;
   color: #fff;
-  font-size: clamp(2em, 4vw, 9em);
+  font-size: clamp(4.5em, 4vw, 9em);
 }
 
 #predicting.inner-predicting .each-one .each-content {
@@ -2353,7 +2394,7 @@ body {
   left: 10px;
   z-index: 1;
   color: #fff;
-  font-size: clamp(2em, 4vw, 9em);
+  font-size: clamp(4.5em, 4vw, 9em);
 }
 
 #initial-domain .each-block .each-content {
@@ -2468,6 +2509,16 @@ body {
   padding-bottom: 10px;
 }
 
+@media (max-width: 767.98px) {
+  #indicator-selection .accordion-button {
+    padding: 0;
+  }
+  #indicator-selection .accordion-button sup {
+    left: -10px;
+    top: -0.75em;
+  }
+}
+
 #indicator-selection.inner-faqs .accordion-button {
   font-size: inherit;
 }
@@ -2516,6 +2567,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  #the-tournment.forecasting {
+    height: 900px;
+  }
+  #the-tournment.forecasting .content {
+    margin-bottom: 3em;
+  }
 }
 
 #the-tournment p {

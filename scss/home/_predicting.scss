@@ -31,6 +31,14 @@
                 padding: 2em 1.25em;
             }
         }
+        @media (max-width:767px){
+            .mobile-climate-slider {
+                overflow-x: auto;
+                overflow-y: hidden;
+                box-sizing: border-box;
+                flex-wrap: nowrap;
+            }
+        }
         .each-one {
             position: relative;
             border: 0.4px solid #0000001A;
@@ -46,7 +54,7 @@
                         left: 10px;
                         z-index: 1;
                         color: #fff;
-                        font-size: clamp(2em, 4vw, 9em);
+                        font-size: clamp(4.5em, 4vw, 9em);
                     }
                 }
             }

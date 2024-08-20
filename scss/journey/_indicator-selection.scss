@@ -37,6 +37,13 @@
       .accordion-button {
         font-size: inherit;
         padding-bottom: 10px;
+        @include media-breakpoint-down(md){
+          padding: 0;
+          sup {
+            left: -10px;
+            top: -0.75em;
+          }
+        }
       }  
       &.inner-faqs {
         .accordion-button {
