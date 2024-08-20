@@ -91,6 +91,12 @@ body {
   padding-right: 3em;
 }
 
+@media (max-width: 991.98px) {
+  .offcanvas-header {
+    padding-top: 5em;
+  }
+}
+
 .btn-close {
   background: none;
   width: inherit;
@@ -1687,6 +1693,12 @@ body {
 
 .offcanvas-header {
   padding-right: 3em;
+}
+
+@media (max-width: 991.98px) {
+  .offcanvas-header {
+    padding-top: 5em;
+  }
 }
 
 .btn-close {

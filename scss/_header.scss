@@ -4,6 +4,9 @@ body {
 }
 .offcanvas-header {
   padding-right: 3em;
+  @include media-breakpoint-down(lg){
+    padding-top: 5em;
+  }
 }
 .btn-close {
   background: none;
