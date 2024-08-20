@@ -15,6 +15,12 @@
         font-weight: 400;
         opacity: .7;
     }
+    &.art-banner {
+        padding-top: 5em !important;
+        h1 {
+            margin-bottom: 1em !important;
+        }
+    }
     &.second-banner {
         @include media-breakpoint-up(lg){
             height: calc(100vh - 60px);

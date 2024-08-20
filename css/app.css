@@ -1013,6 +1013,14 @@ body {
   opacity: .7;
 }
 
+#inner-banner.art-banner {
+  padding-top: 5em !important;
+}
+
+#inner-banner.art-banner h1 {
+  margin-bottom: 1em !important;
+}
+
 @media (min-width: 991.98px) {
   #inner-banner.second-banner {
     height: calc(100vh - 60px);
@@ -1140,6 +1148,15 @@ body {
 #about-artist .des {
   opacity: .7;
   color: #000000;
+}
+
+@media (max-width: 991.98px) {
+  .human-faqs .accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+  }
+  .human-faqs .accordion-button::after {
+    background-image: none !important;
+  }
 }
 
 body {
@@ -2644,6 +2661,14 @@ body {
   opacity: .7;
 }
 
+#inner-banner.art-banner {
+  padding-top: 5em !important;
+}
+
+#inner-banner.art-banner h1 {
+  margin-bottom: 1em !important;
+}
+
 @media (min-width: 991.98px) {
   #inner-banner.second-banner {
     height: calc(100vh - 60px);
@@ -2771,6 +2796,15 @@ body {
 #about-artist .des {
   opacity: .7;
   color: #000000;
+}
+
+@media (max-width: 991.98px) {
+  .human-faqs .accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+  }
+  .human-faqs .accordion-button::after {
+    background-image: none !important;
+  }
 }
 
 body {
