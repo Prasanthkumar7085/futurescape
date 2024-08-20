@@ -968,6 +968,7 @@ body {
 
 #meet-team .each-team h4 a {
   color: #000;
+  font-weight: 400;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -2616,6 +2617,7 @@ body {
 
 #meet-team .each-team h4 a {
   color: #000;
+  font-weight: 400;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
