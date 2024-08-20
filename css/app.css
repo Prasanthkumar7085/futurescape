@@ -876,9 +876,6 @@ body {
 }
 
 @media (max-width: 767.98px) {
-  #indicator-selection .accordion-button {
-    padding: 0;
-  }
   #indicator-selection .accordion-button sup {
     left: -10px;
     top: -0.75em;
@@ -2510,9 +2507,6 @@ body {
 }
 
 @media (max-width: 767.98px) {
-  #indicator-selection .accordion-button {
-    padding: 0;
-  }
   #indicator-selection .accordion-button sup {
     left: -10px;
     top: -0.75em;
