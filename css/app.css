@@ -1131,6 +1131,13 @@ body {
   color: #000000;
 }
 
+.image-sub {
+  margin-top: 10px;
+  opacity: .7;
+  font-weight: 400;
+  font-size: 1em;
+}
+
 .images-blocks .each-block {
   margin-bottom: 2em;
 }
@@ -2778,6 +2785,13 @@ body {
   opacity: .7;
   font-size: 1em;
   color: #000000;
+}
+
+.image-sub {
+  margin-top: 10px;
+  opacity: .7;
+  font-weight: 400;
+  font-size: 1em;
 }
 
 .images-blocks .each-block {
