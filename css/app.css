@@ -843,13 +843,13 @@ body {
 }
 
 #indicator-selection .accordion-button::after {
-  background-image: url("data:image/svg+xml;utf8,<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.5'><path d='M20 0V40' stroke='black' stroke-width='1.2'/><path d='M40 20L-5.96046e-07 20' stroke='black' stroke-width='1.2'/></g></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='1'><path d='M20 0V40' stroke='black' stroke-width='1.5'/><path d='M40 20L-5.96046e-07 20' stroke='black' stroke-width='1.5'/></g></svg>");
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 #indicator-selection .accordion-button:not(.collapsed)::after {
-  background-image: url('data:image/svg+xml,<svg width="40" height="2" viewBox="0 0 40 2" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.5"><path d="M40 1L-5.96046e-07 0.999998" stroke="black" stroke-width="1.2"/></g></svg>');
+  background-image: url('data:image/svg+xml,<svg width="40" height="2" viewBox="0 0 40 2" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="1"><path d="M40 1L-5.96046e-07 0.999998" stroke="black" stroke-width="1.5"/></g></svg>');
   top: 18px;
 }
 
@@ -2518,13 +2518,13 @@ body {
 }
 
 #indicator-selection .accordion-button::after {
-  background-image: url("data:image/svg+xml;utf8,<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.5'><path d='M20 0V40' stroke='black' stroke-width='1.2'/><path d='M40 20L-5.96046e-07 20' stroke='black' stroke-width='1.2'/></g></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='1'><path d='M20 0V40' stroke='black' stroke-width='1.5'/><path d='M40 20L-5.96046e-07 20' stroke='black' stroke-width='1.5'/></g></svg>");
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 #indicator-selection .accordion-button:not(.collapsed)::after {
-  background-image: url('data:image/svg+xml,<svg width="40" height="2" viewBox="0 0 40 2" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.5"><path d="M40 1L-5.96046e-07 0.999998" stroke="black" stroke-width="1.2"/></g></svg>');
+  background-image: url('data:image/svg+xml,<svg width="40" height="2" viewBox="0 0 40 2" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="1"><path d="M40 1L-5.96046e-07 0.999998" stroke="black" stroke-width="1.5"/></g></svg>');
   top: 18px;
 }
 
