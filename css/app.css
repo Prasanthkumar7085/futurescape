@@ -130,7 +130,6 @@ body {
 }
 
 #hero-navbar .navbar-nav .nav-item .nav-link {
-  text-transform: capitalize;
   font-size: clamp(0.9em, 1vw, 2em);
   font-weight: 400;
   opacity: 0.8;
@@ -1786,7 +1785,6 @@ body {
 }
 
 #hero-navbar .navbar-nav .nav-item .nav-link {
-  text-transform: capitalize;
   font-size: clamp(0.9em, 1vw, 2em);
   font-weight: 400;
   opacity: 0.8;
