@@ -1,7 +1,7 @@
 $(".blocks-slider").slick({
     dots: false,
     arrows: true,
-    autoplay: true,
+    autoplay: false,
     draggable: true,
     autoplaySpeed: 7000,
     infinite: true,

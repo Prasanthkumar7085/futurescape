@@ -807,25 +807,16 @@ body {
   font-size: clamp(0.775em, 0.7vw, 1.15em);
 }
 
-#initial-domain .slick-list {
-  overflow: visible;
-}
-
-#initial-domain .slick-list {
-  overflow: visible;
-  padding: 0 0 0 0;
-  position: relative;
-  z-index: -1;
-}
-
-#initial-domain .slick-list::after {
-  content: ' ';
+#initial-domain .slick-prev:before {
+  content: url(/img/about/previous-01.svg);
   position: absolute;
-  top: 0px;
-  bottom: 0px;
-  width: 4000px;
-  right: 100%;
-  background-color: white;
+  left: -1em;
+}
+
+#initial-domain .slick-next:before {
+  content: url(/img/about/next-01.svg);
+  position: absolute;
+  right: -1em;
 }
 
 #initial-domain .slick-slider {
@@ -2482,25 +2473,16 @@ body {
   font-size: clamp(0.775em, 0.7vw, 1.15em);
 }
 
-#initial-domain .slick-list {
-  overflow: visible;
-}
-
-#initial-domain .slick-list {
-  overflow: visible;
-  padding: 0 0 0 0;
-  position: relative;
-  z-index: -1;
-}
-
-#initial-domain .slick-list::after {
-  content: ' ';
+#initial-domain .slick-prev:before {
+  content: url(/img/about/previous-01.svg);
   position: absolute;
-  top: 0px;
-  bottom: 0px;
-  width: 4000px;
-  right: 100%;
-  background-color: white;
+  left: -1em;
+}
+
+#initial-domain .slick-next:before {
+  content: url(/img/about/next-01.svg);
+  position: absolute;
+  right: -1em;
 }
 
 #initial-domain .slick-slider {

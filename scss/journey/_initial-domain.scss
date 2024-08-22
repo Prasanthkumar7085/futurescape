@@ -45,25 +45,35 @@
             }
         }
     }
-    .slick-list {
-        overflow: visible;
-    }
-    .slick-list{
-        overflow: visible;
-        padding:0 0 0 0;
-        position: relative;
-        z-index: -1;
-      }
-      
-      .slick-list::after {
-        content: ' ';
+    .slick-prev:before {
+        content: url(/img/about/previous-01.svg);
         position: absolute;
-        top: 0px;
-        bottom: 0px;
-        width: 4000px;
-        right: 100%;
-        background-color: white;
-      }
+        left: -1em;
+    }
+    .slick-next:before {
+        content: url(/img/about/next-01.svg);
+        position: absolute;
+        right: -1em;
+    }
+    // .slick-list {
+    //     overflow: visible;
+    // }
+    // .slick-list{
+    //     overflow: visible;
+    //     padding:0 0 0 0;
+    //     position: relative;
+    //     z-index: -1;
+    //   }
+      
+    //   .slick-list::after {
+    //     content: ' ';
+    //     position: absolute;
+    //     top: 0px;
+    //     bottom: 0px;
+    //     width: 4000px;
+    //     right: 100%;
+    //     background-color: white;
+    //   }
       
     .slick-slider {
         margin:0 -10px;
