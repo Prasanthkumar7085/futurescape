@@ -1202,8 +1202,8 @@ body {
 #vision-future-new .each-block .img .overlay {
   background-color: #000000;
   border-radius: 50px;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1212,6 +1212,15 @@ body {
   right: 0;
   margin: 0 auto;
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #vision-future-new .each-block:hover img {
@@ -2960,8 +2969,8 @@ body {
 #vision-future-new .each-block .img .overlay {
   background-color: #000000;
   border-radius: 50px;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -2970,6 +2979,15 @@ body {
   right: 0;
   margin: 0 auto;
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #vision-future-new .each-block:hover img {
