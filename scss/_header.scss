@@ -8,6 +8,11 @@ body {
     padding-top: 5em;
   }
 }
+.offcanvas-body {
+  .dropdown-toggle {
+    cursor: inherit;
+  }
+}
 .btn-close {
   background: none;
   width: inherit;
