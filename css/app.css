@@ -1205,9 +1205,9 @@ body {
 
 #vision-future-new .each-block .img .overlay {
   background-color: #000000;
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1231,8 +1231,8 @@ body {
 #vision-future-new .each-block:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-filter: brightness(40%);
-          filter: brightness(40%);
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 #vision-future-new .each-block:hover .txt p {
@@ -1247,6 +1247,8 @@ body {
 #vision-future-new .each-block:hover .overlay img {
   -webkit-filter: inherit !important;
           filter: inherit !important;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 #vision-future-new .each-block .txt {
@@ -2977,9 +2979,9 @@ body {
 
 #vision-future-new .each-block .img .overlay {
   background-color: #000000;
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -3003,8 +3005,8 @@ body {
 #vision-future-new .each-block:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-filter: brightness(40%);
-          filter: brightness(40%);
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 #vision-future-new .each-block:hover .txt p {
@@ -3019,6 +3021,8 @@ body {
 #vision-future-new .each-block:hover .overlay img {
   -webkit-filter: inherit !important;
           filter: inherit !important;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 #vision-future-new .each-block .txt {
