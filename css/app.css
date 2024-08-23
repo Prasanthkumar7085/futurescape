@@ -1155,7 +1155,7 @@ body {
   border: none;
   outline: none;
   color: white;
-  background: #111;
+  background: rgba(0, 0, 0, 0.8);
   cursor: pointer;
   position: relative;
   z-index: 0;
@@ -1217,7 +1217,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #222;
+  background: rgba(0, 0, 0, 0.8);
   left: 0;
   top: 0;
   border-radius: 10px;
@@ -2949,7 +2949,7 @@ body {
   border: none;
   outline: none;
   color: white;
-  background: #111;
+  background: rgba(0, 0, 0, 0.8);
   cursor: pointer;
   position: relative;
   z-index: 0;
@@ -2999,7 +2999,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #222;
+  background: rgba(0, 0, 0, 0.8);
   left: 0;
   top: 0;
   border-radius: 10px;
