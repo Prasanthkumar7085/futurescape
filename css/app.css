@@ -1126,6 +1126,7 @@ body {
 
 #vision-future-new {
   position: relative;
+  /* CSS */
 }
 
 #vision-future-new .content .des {
@@ -1149,8 +1150,113 @@ body {
   opacity: .7;
 }
 
+#vision-future-new .button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: white;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
+#vision-future-new .button-85:before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  -webkit-animation: glowing-button-85 20s linear infinite;
+          animation: glowing-button-85 20s linear infinite;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@-webkit-keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+#vision-future-new .button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
 #vision-future-new .each-block {
   margin-bottom: 2em;
+}
+
+#vision-future-new .each-block .img {
+  position: relative;
+  overflow: hidden;
+}
+
+#vision-future-new .each-block .img img {
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+#vision-future-new .each-block .img .button-85 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  opacity: 0;
+}
+
+#vision-future-new .each-block:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#vision-future-new .each-block:hover .button-85 {
+  opacity: 1;
 }
 
 #vision-future-new .each-block .txt {
@@ -2814,6 +2920,7 @@ body {
 
 #vision-future-new {
   position: relative;
+  /* CSS */
 }
 
 #vision-future-new .content .des {
@@ -2837,8 +2944,101 @@ body {
   opacity: .7;
 }
 
+#vision-future-new .button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: white;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
+#vision-future-new .button-85:before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  -webkit-animation: glowing-button-85 20s linear infinite;
+          animation: glowing-button-85 20s linear infinite;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+#vision-future-new .button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
 #vision-future-new .each-block {
   margin-bottom: 2em;
+}
+
+#vision-future-new .each-block .img {
+  position: relative;
+  overflow: hidden;
+}
+
+#vision-future-new .each-block .img img {
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+#vision-future-new .each-block .img .button-85 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  opacity: 0;
+}
+
+#vision-future-new .each-block:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#vision-future-new .each-block:hover .button-85 {
+  opacity: 1;
 }
 
 #vision-future-new .each-block .txt {
