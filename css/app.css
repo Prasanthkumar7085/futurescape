@@ -831,6 +831,12 @@ body {
   }
 }
 
+@media (max-width: 991.98px) {
+  #initial-domain .slick-next, #initial-domain .slick-prev {
+    bottom: 0;
+  }
+}
+
 #initial-domain .slick-slider {
   margin: 0 -10px;
 }
@@ -2622,6 +2628,12 @@ body {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #initial-domain .slick-next:before {
     right: -0.4em;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #initial-domain .slick-next, #initial-domain .slick-prev {
+    bottom: 0;
   }
 }
 
