@@ -1221,6 +1221,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  opacity: 0;
 }
 
 #vision-future-new .each-block:hover img {
@@ -2988,6 +2989,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  opacity: 0;
 }
 
 #vision-future-new .each-block:hover img {
