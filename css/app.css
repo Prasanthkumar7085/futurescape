@@ -1528,6 +1528,24 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 }
 
+.source-heading {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 0.75em;
+  color: #000;
+  opacity: 0.8;
+}
+
+.source-heading a {
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  .source-heading {
+    text-align: right;
+  }
+}
+
 @media (max-width: 480px) {
   .container-fluid {
     padding-right: 1em;
