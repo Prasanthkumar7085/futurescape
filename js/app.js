@@ -6,6 +6,15 @@ $(window).scroll(function () {
       $("#navlist0").removeClass("affix");
     }
   });
+  $(window).scroll(function () {
+    var scroll = $(this).scrollTop();
+    if (scroll > 2200) {
+      $("#navlist").addClass("affix");
+    } else {
+      $("#navlist").removeClass("affix");
+    }
+  });
+
   // $(window).scroll(function () {
   //   var scroll = $(this).scrollTop();
   //   if (scroll > 10) {

@@ -100,6 +100,15 @@
                 align-items: center;
                 justify-content: center;
                 opacity: 0;
+                @include media-breakpoint-down(lg){
+                    width: 80px;
+                    height: 80px;
+                    opacity: 1;
+                    img {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
             }
             .button-85 {
                 // position: absolute;
