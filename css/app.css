@@ -501,6 +501,7 @@ body {
 
 #predicting {
   position: relative;
+  overflow: hidden;
 }
 
 #predicting h1 {
@@ -2331,6 +2332,7 @@ body {
 
 #predicting {
   position: relative;
+  overflow: hidden;
 }
 
 #predicting h1 {

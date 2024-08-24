@@ -48,6 +48,8 @@ $(".blocks-slider").slick({
           slidesToScroll: 1,
           infinite: true,
           arrows: false,
+          autoplaySpeed: 4000,
+          autoplay: true,
         },
       },
 
@@ -103,6 +105,8 @@ $(".blocks-slider").slick({
           slidesToScroll: 1,
           infinite: true,
           arrows: false,
+          autoplaySpeed: 4000,
+          autoplay: true,
         },
       },
 
