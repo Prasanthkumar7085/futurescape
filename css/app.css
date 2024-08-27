@@ -998,6 +998,12 @@ body {
   font-size: 1em;
 }
 
+@media (min-width: 992px) and (max-width: 1100px) {
+  #indicator-selection.human-faqs {
+    min-height: 700px;
+  }
+}
+
 #the-tournment {
   position: relative;
   padding: 5em 0;
@@ -2870,6 +2876,12 @@ body {
 #indicator-selection.inner-faqs .accordion-item .txt .role {
   opacity: 0.9;
   font-size: 1em;
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  #indicator-selection.human-faqs {
+    min-height: 700px;
+  }
 }
 
 #the-tournment {
