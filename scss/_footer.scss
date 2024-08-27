@@ -77,4 +77,9 @@
     a {
         font-size: 1em;
     }
+    @include media-breakpoint-down(lg){
+        .img {
+            text-align: center;
+        }
+    }
 }

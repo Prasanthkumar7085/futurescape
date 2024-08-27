@@ -17,7 +17,7 @@
     } 
     @include media-breakpoint-down(sm){
        h1 {
-        font-size: clamp(2em, 3.703vw, 8em) !important;
+        font-size: clamp(2.25em, 3.703vw, 8em) !important;
        }
     }   
     .img {

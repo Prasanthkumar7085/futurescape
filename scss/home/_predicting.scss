@@ -114,4 +114,17 @@
             margin-left:10px;
         }
     }
+    .mobile-predict-slider {
+        margin-top: 3em;
+        display: flex;
+        gap: 2em;
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+        padding-bottom: 1.5em;
+        .each-block {
+            min-width: 300px;
+        }
+    }
 }
