@@ -14,7 +14,12 @@
     }  
     .down-arrow-1 {
         bottom: 0.5em;
-    }    
+    } 
+    @include media-breakpoint-down(sm){
+       h1 {
+        font-size: clamp(2em, 3.703vw, 8em) !important;
+       }
+    }   
     .img {
         img {
             margin: 0 auto;

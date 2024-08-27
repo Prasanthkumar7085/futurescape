@@ -30,6 +30,9 @@
         }  
     }
     &.home-banner {
+        @include media-breakpoint-down(md){
+            padding-top: 5em !important;
+        }
         .des {
             opacity: .7;
         }

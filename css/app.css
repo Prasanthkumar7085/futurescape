@@ -465,6 +465,12 @@ body {
   bottom: 0.5em;
 }
 
+@media (max-width: 575.98px) {
+  #world h1 {
+    font-size: clamp(2em, 3.703vw, 8em) !important;
+  }
+}
+
 #world .img img {
   margin: 0 auto;
 }
@@ -1078,6 +1084,12 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #inner-banner.home-banner {
+    padding-top: 5em !important;
   }
 }
 
@@ -2296,6 +2308,12 @@ body {
   bottom: 0.5em;
 }
 
+@media (max-width: 575.98px) {
+  #world h1 {
+    font-size: clamp(2em, 3.703vw, 8em) !important;
+  }
+}
+
 #world .img img {
   margin: 0 auto;
 }
@@ -2909,6 +2927,12 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #inner-banner.home-banner {
+    padding-top: 5em !important;
   }
 }
 
