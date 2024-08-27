@@ -8,7 +8,6 @@
         height: calc(100vh - 60px);
         display: flex;
         align-items: center;
-    
     }
     .des {
         font-size: clamp(1.15em, 1.25vw, 2.5em);
@@ -35,6 +34,11 @@
         }
         .des {
             opacity: .7;
+        }
+    }
+    &.vision-banner {
+        @include media-breakpoint-up(xxl){
+            height: auto !important;
         }
     }
 }

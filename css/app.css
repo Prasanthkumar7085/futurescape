@@ -1122,6 +1122,12 @@ body {
   opacity: .7;
 }
 
+@media (min-width: 1399.98px) {
+  #inner-banner.vision-banner {
+    height: auto !important;
+  }
+}
+
 #timeline-forecasters {
   position: relative;
 }
@@ -2988,6 +2994,12 @@ body {
 
 #inner-banner.home-banner .des {
   opacity: .7;
+}
+
+@media (min-width: 1399.98px) {
+  #inner-banner.vision-banner {
+    height: auto !important;
+  }
 }
 
 #timeline-forecasters {
