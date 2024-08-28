@@ -467,8 +467,20 @@ body {
   z-index: 1;
 }
 
+@media (max-width: 767.98px) {
+  #world .down-arrow {
+    bottom: 3em;
+  }
+}
+
 #world .down-arrow-1 {
   bottom: 0.5em;
+}
+
+@media (max-width: 767.98px) {
+  #world .down-arrow-1 {
+    bottom: 3em;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -2406,8 +2418,20 @@ body {
   z-index: 1;
 }
 
+@media (max-width: 767.98px) {
+  #world .down-arrow {
+    bottom: 3em;
+  }
+}
+
 #world .down-arrow-1 {
   bottom: 0.5em;
+}
+
+@media (max-width: 767.98px) {
+  #world .down-arrow-1 {
+    bottom: 3em;
+  }
 }
 
 @media (max-width: 575.98px) {
