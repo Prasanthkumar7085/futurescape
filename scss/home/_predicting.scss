@@ -160,5 +160,18 @@
         .blocks-second-slider {
             padding-bottom: 5em;
         }
+        .blocks-second-mobile-slider {
+            overflow-x: auto;
+            box-sizing: border-box;
+            flex-wrap: nowrap;
+            display: flex;
+            gap: 1em;
+            padding-bottom: 1em;
+        }
+        .blocks-second-mobile-slider .each-one{
+            min-width: 300px;
+            float: left;
+
+        }
     }
 }
