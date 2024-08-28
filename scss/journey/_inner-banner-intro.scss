@@ -2,7 +2,7 @@
     position: relative;
     padding-top: 8em;
     @include media-breakpoint-down(lg){
-        padding-top: 10em;
+        padding-top: 5em;
     }
     .des {
         font-size: clamp(1.15em, 1.25vw, 2.5em);
