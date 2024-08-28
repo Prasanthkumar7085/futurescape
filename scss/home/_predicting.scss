@@ -127,4 +127,38 @@
             min-width: 300px;
         }
     }
+    .slick-prev:before {
+        content: url(/img/about/previous-01.svg);
+        position: absolute;
+        left: -1em;
+        @include media-breakpoint-between(lg,xl) {
+            left: -0.4em;
+        }
+
+    }
+    .slick-next:before {
+        content: url(/img/about/next-01.svg);
+        position: absolute;
+        right: -1em;
+        @include media-breakpoint-between(lg,xl) {
+            right: -0.4em;
+        }
+    }
+    @include media-breakpoint-down(lg){
+        .slick-next, .slick-prev {
+            top: inherit;
+            bottom: 25px;
+        }
+        .slick-prev {
+            left: 43%;
+        }
+        .slick-next {
+            right: 43%;
+        }
+    }
+    @include media-breakpoint-down(lg){
+        .blocks-second-slider {
+            padding-bottom: 5em;
+        }
+    }
 }

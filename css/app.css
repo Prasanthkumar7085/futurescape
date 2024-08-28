@@ -670,6 +670,49 @@ body {
   min-width: 300px;
 }
 
+#predicting .slick-prev:before {
+  content: url(/img/about/previous-01.svg);
+  position: absolute;
+  left: -1em;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #predicting .slick-prev:before {
+    left: -0.4em;
+  }
+}
+
+#predicting .slick-next:before {
+  content: url(/img/about/next-01.svg);
+  position: absolute;
+  right: -1em;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #predicting .slick-next:before {
+    right: -0.4em;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #predicting .slick-next, #predicting .slick-prev {
+    top: inherit;
+    bottom: 25px;
+  }
+  #predicting .slick-prev {
+    left: 43%;
+  }
+  #predicting .slick-next {
+    right: 43%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #predicting .blocks-second-slider {
+    padding-bottom: 5em;
+  }
+}
+
 #discover-more {
   position: relative;
 }
@@ -802,6 +845,12 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 991.98px) {
+  #initial-domain {
+    padding-bottom: 5em;
+  }
+}
+
 #initial-domain .each-block {
   position: relative;
   border: 0.4px solid #0000001A;
@@ -883,7 +932,14 @@ body {
 
 @media (max-width: 991.98px) {
   #initial-domain .slick-next, #initial-domain .slick-prev {
-    bottom: 0;
+    top: inherit;
+    bottom: -35px;
+  }
+  #initial-domain .slick-prev {
+    left: 43%;
+  }
+  #initial-domain .slick-next {
+    right: 43%;
   }
 }
 
@@ -2553,6 +2609,49 @@ body {
   min-width: 300px;
 }
 
+#predicting .slick-prev:before {
+  content: url(/img/about/previous-01.svg);
+  position: absolute;
+  left: -1em;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #predicting .slick-prev:before {
+    left: -0.4em;
+  }
+}
+
+#predicting .slick-next:before {
+  content: url(/img/about/next-01.svg);
+  position: absolute;
+  right: -1em;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #predicting .slick-next:before {
+    right: -0.4em;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #predicting .slick-next, #predicting .slick-prev {
+    top: inherit;
+    bottom: 25px;
+  }
+  #predicting .slick-prev {
+    left: 43%;
+  }
+  #predicting .slick-next {
+    right: 43%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #predicting .blocks-second-slider {
+    padding-bottom: 5em;
+  }
+}
+
 #discover-more {
   position: relative;
 }
@@ -2685,6 +2784,12 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 991.98px) {
+  #initial-domain {
+    padding-bottom: 5em;
+  }
+}
+
 #initial-domain .each-block {
   position: relative;
   border: 0.4px solid #0000001A;
@@ -2766,7 +2871,14 @@ body {
 
 @media (max-width: 991.98px) {
   #initial-domain .slick-next, #initial-domain .slick-prev {
-    bottom: 0;
+    top: inherit;
+    bottom: -35px;
+  }
+  #initial-domain .slick-prev {
+    left: 43%;
+  }
+  #initial-domain .slick-next {
+    right: 43%;
   }
 }
 

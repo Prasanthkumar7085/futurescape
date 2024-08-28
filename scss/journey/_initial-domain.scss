@@ -1,6 +1,9 @@
 #initial-domain {
     position: relative;
     overflow: hidden;
+    @include media-breakpoint-down(lg){
+        padding-bottom: 5em;
+    }
     .each-block {
         position: relative;
         border: 0.4px solid #0000001A;
@@ -64,7 +67,14 @@
     }
     @include media-breakpoint-down(lg){
         .slick-next, .slick-prev {
-            bottom: 0;
+            top: inherit;
+            bottom: -35px;
+        }
+        .slick-prev {
+            left: 43%;
+        }
+        .slick-next {
+            right: 43%;
         }
     }
     // .slick-list {
