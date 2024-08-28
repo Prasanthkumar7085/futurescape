@@ -180,10 +180,13 @@
 @include media-breakpoint-down(lg){
     .human-faqs {
         .accordion-button:not(.collapsed)::after {
-            background-image: none !important;
+            top: 22px !important;
         }
         .accordion-button::after {
-            background-image: none !important;
+            top: 30px;
+        }
+        .accordion {
+            margin-left: 10px !important;
         }
     }
 }

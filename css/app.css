@@ -778,7 +778,7 @@ body {
 
 @media (max-width: 991.98px) {
   #inner-banner-intro {
-    padding-top: 24em;
+    padding-top: 10em;
   }
 }
 
@@ -1076,7 +1076,7 @@ body {
 
 @media (max-width: 991.98px) {
   #inner-banner {
-    padding-top: 18em !important;
+    padding-top: 10em !important;
   }
 }
 
@@ -1366,10 +1366,13 @@ body {
 
 @media (max-width: 991.98px) {
   .human-faqs .accordion-button:not(.collapsed)::after {
-    background-image: none !important;
+    top: 22px !important;
   }
   .human-faqs .accordion-button::after {
-    background-image: none !important;
+    top: 30px;
+  }
+  .human-faqs .accordion {
+    margin-left: 10px !important;
   }
 }
 
@@ -2658,7 +2661,7 @@ body {
 
 @media (max-width: 991.98px) {
   #inner-banner-intro {
-    padding-top: 24em;
+    padding-top: 10em;
   }
 }
 
@@ -2956,7 +2959,7 @@ body {
 
 @media (max-width: 991.98px) {
   #inner-banner {
-    padding-top: 18em !important;
+    padding-top: 10em !important;
   }
 }
 
@@ -3234,10 +3237,13 @@ body {
 
 @media (max-width: 991.98px) {
   .human-faqs .accordion-button:not(.collapsed)::after {
-    background-image: none !important;
+    top: 22px !important;
   }
   .human-faqs .accordion-button::after {
-    background-image: none !important;
+    top: 30px;
+  }
+  .human-faqs .accordion {
+    margin-left: 10px !important;
   }
 }
 

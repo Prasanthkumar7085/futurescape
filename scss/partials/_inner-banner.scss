@@ -2,7 +2,7 @@
     position: relative;
     padding: 2em 0;
     @include media-breakpoint-down(lg){
-        padding-top: 18em !important;
+        padding-top: 10em !important;
     }
     @include media-breakpoint-up(xxl){
         height: calc(100vh - 60px);
