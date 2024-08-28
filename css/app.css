@@ -563,7 +563,7 @@ body {
   padding: 2em 1.25em;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #predicting.inner-predicting .mobile-climate-slider {
     overflow-x: auto;
     overflow-y: hidden;
@@ -732,12 +732,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 1em;
     padding-bottom: 1em;
-  }
-  #predicting .blocks-second-mobile-slider .each-one {
-    min-width: 300px;
-    float: left;
   }
 }
 
@@ -2530,7 +2525,7 @@ body {
   padding: 2em 1.25em;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #predicting.inner-predicting .mobile-climate-slider {
     overflow-x: auto;
     overflow-y: hidden;
@@ -2699,12 +2694,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 1em;
     padding-bottom: 1em;
-  }
-  #predicting .blocks-second-mobile-slider .each-one {
-    min-width: 300px;
-    float: left;
   }
 }
 
