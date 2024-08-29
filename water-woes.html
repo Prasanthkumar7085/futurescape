@@ -47,7 +47,8 @@
                   aria-controls="offcanvasNavbar">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://futurescape.uwaterloo.ca/game/login" target="_blank">Play the game</a>
+                <a href="https://futurescape.uwaterloo.ca/game/login" target="_blank" class="nav-link main-txt text-black d-none d-lg-block">Play the game</a>
+            <a href="#" class="nav-link main-txt text-black d-lg-none"  data-bs-dismiss="offcanvas" aria-label="Close" data-bs-toggle="modal" data-bs-target="#exampleModal">Play the game</a>
               </li>
             </ul>
           </div>
@@ -195,6 +196,22 @@
       </div>
     </div>
   </section>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="img/close.svg" alt="" class="img-fluid"></button>
+      </div>
+      <div class="modal-body">
+        <h1>The game is best experienced on a desktop or laptop. Mobile support is limited—please switch devices for the optimal experience.        </h1>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

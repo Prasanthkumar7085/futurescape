@@ -30,7 +30,9 @@ $(window).scroll(function () {
       $(".animated-icon2").toggleClass("open");
     });
   });
-  
+  $(".offcanvas-end a").click(function(){
+    $('.offcanvas').offcanvas('hide');
+});
   // Changes Img to SVG
   $("img.svg").each(function () {
     var $img = $(this);

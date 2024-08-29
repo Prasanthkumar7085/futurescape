@@ -336,6 +336,43 @@ body {
   opacity: 1;
 }
 
+.modal-header, .modal-footer {
+  border: 0;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999999;
+  margin: 0 auto;
+}
+
+.modal-dialog {
+  max-width: 80%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .modal-dialog {
+    max-width: 90%;
+  }
+}
+
+.modal-dialog h1 {
+  font-size: 2.5em;
+}
+
+.modal-dialog .modal-content {
+  border-radius: 25px;
+}
+
+.modal-dialog .modal-body {
+  padding: 2em;
+  text-align: center;
+}
+
 #footer {
   background: #1A427C;
   padding: 2.15em 0;
@@ -2296,6 +2333,43 @@ body {
 
 .topnav #navlist.affix {
   opacity: 1;
+}
+
+.modal-header, .modal-footer {
+  border: 0;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999999;
+  margin: 0 auto;
+}
+
+.modal-dialog {
+  max-width: 80%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .modal-dialog {
+    max-width: 90%;
+  }
+}
+
+.modal-dialog h1 {
+  font-size: 2.5em;
+}
+
+.modal-dialog .modal-content {
+  border-radius: 25px;
+}
+
+.modal-dialog .modal-body {
+  padding: 2em;
+  text-align: center;
 }
 
 #footer {
